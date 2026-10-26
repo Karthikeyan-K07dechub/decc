@@ -1,0 +1,61 @@
+[
+  {
+    "recheckArabic": {
+      "x": 0,
+      "width": 320,
+      "doc": 320
+    }
+  },
+  {
+    "shortMenu": {
+      "scrollTop": 271,
+      "scrollHeight": 775,
+      "clientHeight": 504,
+      "ctaTop": 487.8125,
+      "ctaBottom": 535.8125,
+      "viewport": 568
+    }
+  },
+  {
+    "menuTab": {
+      "tag": "A",
+      "text": "الخدمات",
+      "insideMenu": false
+    }
+  },
+  {
+    "touchTablet": {
+      "pins": 3,
+      "fine": false,
+      "hover": false
+    }
+  },
+  {
+    "textResize": {
+      "headerHeight": 160,
+      "hero": [
+        {
+          "text": "A-000 · Designer Engineering Consultants",
+          "y": 398.375,
+          "bottom": 434.375
+        },
+        {
+          "text": "Engineered in Ras Al Khaimah since 2009",
+          "y": 482.375,
+          "bottom": 800.328125
+        },
+        {
+          "text": "Architecture, structure and MEP design, with site supervision through ",
+          "y": 848.328125,
+          "bottom": 961.609375
+        },
+        {
+          "text": "Book a consultation →See our projects",
+          "y": 1033.609375,
+          "bottom": 1129.609375
+        }
+      ],
+      "viewport": 720
+    }
+  }
+]

@@ -1,0 +1,398 @@
+[
+  {
+    "reduced": true,
+    "locale": "en",
+    "section": {
+      "text": "P-300\n\nSelected work\n\n01 / 04\n\nALL PROJECTS →\nP-301\n\n01 / 04\n\nCourtyard villa, Al Dhait\nTY",
+      "x": 0,
+      "y": 0.140625,
+      "w": 1009,
+      "h": 600,
+      "right": 1009,
+      "bottom": 600.140625
+    },
+    "scrollY": 2985,
+    "scrollWidth": 2900,
+    "clientWidth": 1009,
+    "overflow": "hidden",
+    "panels": [
+      {
+        "text": "P-301\n\n01 / 04\n\nCourtyard villa, Al Dhait\nTYPE\nVILLAS\nPLOT AREA\n00 M²\nFLOORS\nG+1\nSTATUS\nCO",
+        "x": 32.765625,
+        "y": 201.28125,
+        "w": 655.359375,
+        "h": 342.859375,
+        "right": 688.125,
+        "bottom": 544.140625
+      },
+      {
+        "text": "P-302\n\n02 / 04\n\nResidential building, Al Nakheel\nTYPE\nRESIDENTIAL\nPLOT AREA\n00 M²\nFLOORS\nG",
+        "x": 729.078125,
+        "y": 201.28125,
+        "w": 655.359375,
+        "h": 342.859375,
+        "right": 1384.4375,
+        "bottom": 544.140625
+      },
+      {
+        "text": "P-303\n\n03 / 04\n\nNeighbourhood mosque, Khuzam\nTYPE\nMOSQUES\nPLOT AREA\n00 M²\nFLOORS\nG\nSTATUS\n",
+        "x": 1425.390625,
+        "y": 201.28125,
+        "w": 655.359375,
+        "h": 342.859375,
+        "right": 2080.75,
+        "bottom": 544.140625
+      },
+      {
+        "text": "P-304\n\n04 / 04\n\nWarehouse, Al Ghail\nTYPE\nINDUSTRIAL\nPLOT AREA\n00 M²\nFLOORS\nG+M\nSTATUS\nUNDE",
+        "x": 2121.703125,
+        "y": 201.28125,
+        "w": 655.359375,
+        "h": 342.859375,
+        "right": 2777.0625,
+        "bottom": 544.140625
+      }
+    ],
+    "stage": null
+  },
+  {
+    "reduced": true,
+    "locale": "en",
+    "section": {
+      "text": "S-200 · COMPLETE BUILDING\n\nEvery layer, one office\n\nA building is five drawings stacked on",
+      "x": 0,
+      "y": -0.484375,
+      "w": 1009,
+      "h": 716.734375,
+      "right": 1009,
+      "bottom": 716.25
+    },
+    "scrollY": 932,
+    "scrollWidth": 1009,
+    "clientWidth": 1009,
+    "overflow": "visible",
+    "panels": [],
+    "stage": {
+      "text": "S-200 · COMPLETE BUILDING\n\nEvery layer, one office\n\nA building is five drawings stacked on",
+      "x": 0,
+      "y": -0.484375,
+      "w": 1009,
+      "h": 716.734375,
+      "right": 1009,
+      "bottom": 716.25
+    }
+  },
+  {
+    "reduced": true,
+    "locale": "ar",
+    "section": {
+      "text": "P-300\n\nأعمال مختارة\n\n01 / 04\n\nكل المشاريع →\nP-301\n\n01 / 04\n\nفيلا بفناء، الظيت\nالنوع\nالفلل\n",
+      "x": 0,
+      "y": 0.390625,
+      "w": 1009,
+      "h": 600,
+      "right": 1009,
+      "bottom": 600.390625
+    },
+    "scrollY": 2997,
+    "scrollWidth": 2900,
+    "clientWidth": 1009,
+    "overflow": "hidden",
+    "panels": [
+      {
+        "text": "P-301\n\n01 / 04\n\nفيلا بفناء، الظيت\nالنوع\nالفلل\nمساحة الأرض\n00 m²\nالطوابق\nG+1\nالحالة\nمكتمل\n\n",
+        "x": 320.875,
+        "y": 218.34375,
+        "w": 655.359375,
+        "h": 326.046875,
+        "right": 976.234375,
+        "bottom": 544.390625
+      },
+      {
+        "text": "P-302\n\n02 / 04\n\nمبنى سكني، النخيل\nالنوع\nالسكني\nمساحة الأرض\n00 m²\nالطوابق\nG+4\nالحالة\nمكتمل\n",
+        "x": -375.4375,
+        "y": 218.34375,
+        "w": 655.359375,
+        "h": 326.046875,
+        "right": 279.921875,
+        "bottom": 544.390625
+      },
+      {
+        "text": "P-303\n\n03 / 04\n\nمسجد الحي، خزام\nالنوع\nالمساجد\nمساحة الأرض\n00 m²\nالطوابق\nG\nالحالة\nمكتمل\n\nمش",
+        "x": -1071.75,
+        "y": 218.34375,
+        "w": 655.359375,
+        "h": 326.046875,
+        "right": -416.390625,
+        "bottom": 544.390625
+      },
+      {
+        "text": "P-304\n\n04 / 04\n\nمستودع، الغيل\nالنوع\nالصناعي\nمساحة الأرض\n00 m²\nالطوابق\nG+M\nالحالة\nقيد الإنش",
+        "x": -1768.0625,
+        "y": 218.34375,
+        "w": 655.359375,
+        "h": 326.046875,
+        "right": -1112.703125,
+        "bottom": 544.390625
+      }
+    ],
+    "stage": null
+  },
+  {
+    "reduced": true,
+    "locale": "ar",
+    "section": {
+      "text": "S-200 · المبنى مكتملًا\n\nكل طبقة، مكتب واحد\n\nالمبنى خمسة مخططات فوق بعضها. ونحن نرسمها جميع",
+      "x": 0,
+      "y": 0.28125,
+      "w": 1009,
+      "h": 687.90625,
+      "right": 1009,
+      "bottom": 688.1875
+    },
+    "scrollY": 998,
+    "scrollWidth": 1009,
+    "clientWidth": 1009,
+    "overflow": "visible",
+    "panels": [],
+    "stage": {
+      "text": "S-200 · المبنى مكتملًا\n\nكل طبقة، مكتب واحد\n\nالمبنى خمسة مخططات فوق بعضها. ونحن نرسمها جميع",
+      "x": 0,
+      "y": 0.28125,
+      "w": 1009,
+      "h": 687.90625,
+      "right": 1009,
+      "bottom": 688.1875
+    }
+  },
+  {
+    "reduced": false,
+    "locale": "en",
+    "section": {
+      "text": "P-300\n\nSelected work\n\n01 / 04\n\nALL PROJECTS →\nP-301\n\n01 / 04\n\nCourtyard villa, Al Dhait\nTY",
+      "x": 0,
+      "y": 0.40625,
+      "w": 1009,
+      "h": 600,
+      "right": 1009,
+      "bottom": 600.40625
+    },
+    "scrollY": 5985,
+    "scrollWidth": 2900,
+    "clientWidth": 1009,
+    "overflow": "hidden",
+    "panels": [
+      {
+        "text": "P-301\n\n01 / 04\n\nCourtyard villa, Al Dhait\nTYPE\nVILLAS\nPLOT AREA\n00 M²\nFLOORS\nG+1\nSTATUS\nCO",
+        "x": 32.765625,
+        "y": 201.546875,
+        "w": 655.359375,
+        "h": 342.859375,
+        "right": 688.125,
+        "bottom": 544.40625
+      },
+      {
+        "text": "P-302\n\n02 / 04\n\nResidential building, Al Nakheel\nTYPE\nRESIDENTIAL\nPLOT AREA\n00 M²\nFLOORS\nG",
+        "x": 729.078125,
+        "y": 201.546875,
+        "w": 655.359375,
+        "h": 342.859375,
+        "right": 1384.4375,
+        "bottom": 544.40625
+      },
+      {
+        "text": "P-303\n\n03 / 04\n\nNeighbourhood mosque, Khuzam\nTYPE\nMOSQUES\nPLOT AREA\n00 M²\nFLOORS\nG\nSTATUS\n",
+        "x": 1425.390625,
+        "y": 201.546875,
+        "w": 655.359375,
+        "h": 342.859375,
+        "right": 2080.75,
+        "bottom": 544.40625
+      },
+      {
+        "text": "P-304\n\n04 / 04\n\nWarehouse, Al Ghail\nTYPE\nINDUSTRIAL\nPLOT AREA\n00 M²\nFLOORS\nG+M\nSTATUS\nUNDE",
+        "x": 2121.703125,
+        "y": 201.546875,
+        "w": 655.359375,
+        "h": 342.859375,
+        "right": 2777.0625,
+        "bottom": 544.40625
+      }
+    ],
+    "stage": null
+  },
+  {
+    "reduced": false,
+    "locale": "en",
+    "section": {
+      "text": "S-200 · COMPLETE BUILDING\n\nEvery layer, one office\n\nA building is five drawings stacked on",
+      "x": 0,
+      "y": -0.484375,
+      "w": 1009,
+      "h": 2517,
+      "right": 1009,
+      "bottom": 2516.515625
+    },
+    "scrollY": 2132,
+    "scrollWidth": 1009,
+    "clientWidth": 1009,
+    "overflow": "visible",
+    "panels": [],
+    "stage": {
+      "text": "S-200 · COMPLETE BUILDING\n\nEvery layer, one office\n\nA building is five drawings stacked on",
+      "x": 0,
+      "y": -0.484375,
+      "w": 1009,
+      "h": 716.71875,
+      "right": 1009,
+      "bottom": 716.234375
+    }
+  },
+  {
+    "reduced": false,
+    "locale": "ar",
+    "section": {
+      "text": "P-300\n\nأعمال مختارة\n\n01 / 04\n\nكل المشاريع →\nP-301\n\n01 / 04\n\nفيلا بفناء، الظيت\nالنوع\nالفلل\n",
+      "x": 0,
+      "y": 0.484375,
+      "w": 1009,
+      "h": 600,
+      "right": 1009,
+      "bottom": 600.484375
+    },
+    "scrollY": 5997,
+    "scrollWidth": 2900,
+    "clientWidth": 1009,
+    "overflow": "hidden",
+    "panels": [
+      {
+        "text": "P-301\n\n01 / 04\n\nفيلا بفناء، الظيت\nالنوع\nالفلل\nمساحة الأرض\n00 m²\nالطوابق\nG+1\nالحالة\nمكتمل\n\n",
+        "x": 320.875,
+        "y": 218.4375,
+        "w": 655.359375,
+        "h": 326.046875,
+        "right": 976.234375,
+        "bottom": 544.484375
+      },
+      {
+        "text": "P-302\n\n02 / 04\n\nمبنى سكني، النخيل\nالنوع\nالسكني\nمساحة الأرض\n00 m²\nالطوابق\nG+4\nالحالة\nمكتمل\n",
+        "x": -375.4375,
+        "y": 218.4375,
+        "w": 655.359375,
+        "h": 326.046875,
+        "right": 279.921875,
+        "bottom": 544.484375
+      },
+      {
+        "text": "P-303\n\n03 / 04\n\nمسجد الحي، خزام\nالنوع\nالمساجد\nمساحة الأرض\n00 m²\nالطوابق\nG\nالحالة\nمكتمل\n\nمش",
+        "x": -1071.75,
+        "y": 218.4375,
+        "w": 655.359375,
+        "h": 326.046875,
+        "right": -416.390625,
+        "bottom": 544.484375
+      },
+      {
+        "text": "P-304\n\n04 / 04\n\nمستودع، الغيل\nالنوع\nالصناعي\nمساحة الأرض\n00 m²\nالطوابق\nG+M\nالحالة\nقيد الإنش",
+        "x": -1768.0625,
+        "y": 218.4375,
+        "w": 655.359375,
+        "h": 326.046875,
+        "right": -1112.703125,
+        "bottom": 544.484375
+      }
+    ],
+    "stage": null
+  },
+  {
+    "reduced": false,
+    "locale": "ar",
+    "section": {
+      "text": "S-200 · المبنى مكتملًا\n\nكل طبقة، مكتب واحد\n\nالمبنى خمسة مخططات فوق بعضها. ونحن نرسمها جميع",
+      "x": 0,
+      "y": 0.28125,
+      "w": 1009,
+      "h": 2488,
+      "right": 1009,
+      "bottom": 2488.28125
+    },
+    "scrollY": 2198,
+    "scrollWidth": 1009,
+    "clientWidth": 1009,
+    "overflow": "visible",
+    "panels": [],
+    "stage": {
+      "text": "S-200 · المبنى مكتملًا\n\nكل طبقة، مكتب واحد\n\nالمبنى خمسة مخططات فوق بعضها. ونحن نرسمها جميع",
+      "x": 0,
+      "y": 0.28125,
+      "w": 1009,
+      "h": 687.890625,
+      "right": 1009,
+      "bottom": 688.171875
+    }
+  },
+  {
+    "filter": 3
+  },
+  {
+    "faq": {
+      "expanded": "true",
+      "height": 144,
+      "scrollHeight": 144
+    }
+  },
+  {
+    "gallery": {
+      "dialog": {
+        "text": "01 / 04\n\nCLOSE ✕\n← PREVIOUS\nNEXT →",
+        "x": 0,
+        "y": 0,
+        "w": 390,
+        "h": 844,
+        "right": 390,
+        "bottom": 844
+      },
+      "buttons": [
+        {
+          "text": "CLOSE ✕",
+          "x": 314.25,
+          "y": 20,
+          "w": 59.75,
+          "h": 18,
+          "right": 374,
+          "bottom": 38
+        },
+        {
+          "text": "← PREVIOUS",
+          "x": 16,
+          "y": 806,
+          "w": 90.578125,
+          "h": 18,
+          "right": 106.578125,
+          "bottom": 824
+        },
+        {
+          "text": "NEXT →",
+          "x": 316.0625,
+          "y": 806,
+          "w": 57.9375,
+          "h": 18,
+          "right": 374,
+          "bottom": 824
+        }
+      ],
+      "bodyLocked": "hidden"
+    }
+  },
+  {
+    "emptyForm": {
+      "invalid": 3,
+      "errors": [
+        "Please fill in this field.",
+        "Enter a phone number, e.g. +971 50 123 4567.",
+        "Please fill in this field."
+      ],
+      "width": 390
+    }
+  }
+]

@@ -1,0 +1,592 @@
+/* ==========================================================================
+   DECC — "The Drawing Set"
+   1. Tailwind + design tokens   2. Base   3. Type   4. Drawing furniture
+   5. Components                 6. Motion helpers
+   ========================================================================== */
+
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------- 1. Tokens */
+@theme {
+  --color-paper: #f3eee4;
+  --color-gypsum: #fbf9f5;
+  --color-ink: #1e2522;
+  --color-basalt: #3a4540;
+  --color-concrete: #8c8a83;
+  --color-clay: #b5532f;
+  --color-clay-deep: #9a4426;
+  --color-teal: #2f7f8a;
+  --color-teal-soft: #6fb0b8; /* teal for lines on ink, AA-safe */
+  --color-concrete-soft: #6b6962; /* muted text on paper (AA) */
+  --color-ink-muted: #a7aca6; /* muted text on ink (AA) */
+  --color-clay-soft: #e9a083; /* clay for small text on ink (AA) */
+
+  --font-display: var(--font-archivo), "Arial Narrow", Arial, sans-serif;
+  --font-sans: var(--font-instrument), system-ui, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, Menlo, monospace;
+
+  --ease-draw: cubic-bezier(0.22, 1, 0.36, 1);
+
+  --breakpoint-xs: 22.5rem;
+  --breakpoint-3xl: 120rem;
+}
+
+:root {
+  --gutter: clamp(1rem, 3.2vw, 3rem);
+  --section: clamp(6rem, 12vw, 12rem);
+  --header-h: 5rem;
+  --header-h-small: 4rem;
+  --hairline: 1px solid color-mix(in srgb, var(--color-ink) 18%, transparent);
+  --hairline-light: 1px solid color-mix(in srgb, var(--color-paper) 18%, transparent);
+  --t-display: clamp(2.75rem, 1rem + 7.4vw, 9vw);
+  --t-h2: clamp(2.25rem, 1.1rem + 4.4vw, 5.75rem);
+  --t-h3: clamp(1.4rem, 1.1rem + 1.1vw, 2.1rem);
+  --t-lead: clamp(1.1rem, 1rem + 0.45vw, 1.4rem);
+  --t-body: clamp(1rem, 0.97rem + 0.15vw, 1.0625rem);
+  --t-mono: 0.75rem;
+  color-scheme: light;
+}
+
+/* Arabic faces and +10% line height */
+[dir="rtl"] {
+  --font-display: var(--font-alexandria), var(--font-archivo), sans-serif;
+  --font-sans: var(--font-plex-arabic), var(--font-instrument), sans-serif;
+}
+
+/* ---------------------------------------------------------------- 2. Base */
+@layer base {
+  html {
+    background: var(--color-paper);
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: var(--t-body);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: clip;
+  }
+
+  [dir="rtl"] body {
+    line-height: 1.76;
+  }
+
+  /* Film grain at 4% above everything, never intercepting input */
+  body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 300;
+    pointer-events: none;
+    opacity: 0.04;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  }
+
+  ::selection {
+    background: var(--color-clay);
+    color: #fff;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-clay);
+    outline-offset: 3px;
+  }
+
+  .on-ink :focus-visible {
+    outline-color: var(--color-paper);
+  }
+
+  img,
+  svg,
+  canvas,
+  video {
+    display: block;
+    max-width: 100%;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+}
+
+/* ---------------------------------------------------------------- 3. Type */
+@layer components {
+  .display {
+    font-family: var(--font-display);
+    font-weight: 780;
+    font-stretch: 122%;
+    font-variation-settings: "wdth" 122;
+    letter-spacing: -0.02em;
+    line-height: 0.92;
+  }
+
+  [dir="rtl"] .display {
+    font-weight: 700;
+    font-variation-settings: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    line-height: 1.15;
+  }
+
+  .h-display {
+    font-size: var(--t-display);
+  }
+
+  .h2 {
+    font-size: var(--t-h2);
+  }
+
+  .h3 {
+    font-family: var(--font-display);
+    font-size: var(--t-h3);
+    font-weight: 700;
+    font-variation-settings: "wdth" 115;
+    letter-spacing: -0.01em;
+    line-height: 1.05;
+  }
+
+  [dir="rtl"] .h3 {
+    font-variation-settings: normal;
+    letter-spacing: 0;
+    line-height: 1.3;
+  }
+
+  .lead {
+    font-size: var(--t-lead);
+    line-height: 1.5;
+    max-width: 38ch;
+  }
+
+  .mono {
+    font-family: var(--font-mono);
+    font-size: var(--t-mono);
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Numbers and coordinates always read left-to-right */
+  .ltr {
+    direction: ltr;
+    unicode-bidi: isolate;
+  }
+
+  /* ---------------------------------------------------------------- 4. Drawing furniture */
+
+  .wrap {
+    width: 100%;
+    max-width: 1760px;
+    margin-inline: auto;
+    padding-inline: max(var(--gutter), env(safe-area-inset-left, 0px));
+  }
+
+  .section {
+    padding-block: var(--section);
+  }
+
+  /* Keep hero copy below the fixed header and let short screens scroll naturally. */
+  .hero,
+  .hero-copy {
+    min-height: 100svh;
+  }
+
+  .hero-copy {
+    padding-top: calc(var(--header-h) + 2rem + env(safe-area-inset-top, 0px));
+    padding-bottom: calc(6rem + env(safe-area-inset-bottom, 0px));
+  }
+
+  .hero-content {
+    width: 100%;
+    max-width: 42rem;
+  }
+
+  .hero-title {
+    font-size: clamp(2.25rem, 5vw, 5.25rem);
+    line-height: 1.02;
+    overflow-wrap: break-word;
+  }
+
+  .hero-scene {
+    inset: var(--header-h) 0 4rem;
+    opacity: 0.25;
+  }
+
+  @media (min-width: 64rem) {
+    .hero-copy {
+      padding-bottom: 6rem;
+    }
+
+    .hero-content {
+      width: 54%;
+      max-width: 48rem;
+    }
+
+    .hero-scene {
+      inset-inline-start: 58%;
+      inset-inline-end: var(--gutter);
+      opacity: 1;
+    }
+  }
+
+  @media (min-width: 64rem) and (max-height: 45rem) {
+    .hero-title {
+      font-size: clamp(2.25rem, 4.2vw, 4rem);
+    }
+  }
+
+  /* Faint 8px drafting grid, with a stronger line every 64px */
+  .drafting {
+    background-color: var(--color-paper);
+    background-image:
+      linear-gradient(to right, color-mix(in srgb, var(--color-concrete) 20%, transparent) 1px, transparent 1px),
+      linear-gradient(to bottom, color-mix(in srgb, var(--color-concrete) 20%, transparent) 1px, transparent 1px),
+      linear-gradient(to right, color-mix(in srgb, var(--color-concrete) 9%, transparent) 1px, transparent 1px),
+      linear-gradient(to bottom, color-mix(in srgb, var(--color-concrete) 9%, transparent) 1px, transparent 1px);
+    background-size: 64px 64px, 64px 64px, 8px 8px, 8px 8px;
+  }
+
+  .on-ink {
+    background: var(--color-ink);
+    color: var(--color-paper);
+  }
+
+  .sheet-code {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6em;
+  }
+
+  .sheet-code::before {
+    content: "";
+    width: 1.6em;
+    height: 1px;
+    background: var(--color-clay);
+  }
+
+  /* Hairline rule that draws in across the page */
+  .rule {
+    height: 1px;
+    background: currentColor;
+    opacity: 0.18;
+    transform-origin: left center;
+  }
+
+  [dir="rtl"] .rule {
+    transform-origin: right center;
+  }
+
+  /* ---------------------------------------------------------------- 5. Components */
+
+  /* Clay button with a fill sweep; outline variant */
+  .btn {
+    position: relative;
+    isolation: isolate;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.65em;
+    min-height: 3rem;
+    padding: 0.8rem 1.45rem;
+    overflow: hidden;
+    border: 1px solid var(--color-clay);
+    background: var(--color-clay);
+    color: #fff;
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-decoration: none;
+    transition: color 0.6s var(--ease-draw), border-color 0.6s var(--ease-draw);
+  }
+
+  .btn::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: var(--color-clay-deep);
+    transform: scaleX(0);
+    transform-origin: right center;
+    transition: transform 0.7s var(--ease-draw);
+  }
+
+  .btn:hover::before,
+  .btn:focus-visible::before {
+    transform: scaleX(1);
+    transform-origin: left center;
+  }
+
+  [dir="rtl"] .btn::before {
+    transform-origin: left center;
+  }
+
+  [dir="rtl"] .btn:hover::before,
+  [dir="rtl"] .btn:focus-visible::before {
+    transform-origin: right center;
+  }
+
+  .btn-outline {
+    background: transparent;
+    color: currentColor;
+    border-color: currentColor;
+  }
+
+  .btn-outline::before {
+    background: var(--color-clay);
+  }
+
+  .btn-outline:hover,
+  .btn-outline:focus-visible {
+    color: #fff;
+    border-color: var(--color-clay);
+  }
+
+  .btn[disabled] {
+    opacity: 0.6;
+    cursor: progress;
+  }
+
+  /* Link with a clay underline that draws in */
+  .draw-link {
+    position: relative;
+    text-decoration: none;
+  }
+
+  .draw-link::after {
+    content: "";
+    position: absolute;
+    inset-inline: 0;
+    bottom: -0.25em;
+    height: 1px;
+    background: var(--color-clay);
+    transform: scaleX(0);
+    transform-origin: right center;
+    transition: transform 0.6s var(--ease-draw);
+  }
+
+  .draw-link:hover::after,
+  .draw-link:focus-visible::after,
+  .draw-link[aria-current="page"]::after {
+    transform: scaleX(1);
+    transform-origin: left center;
+  }
+
+  [dir="rtl"] .draw-link::after {
+    transform-origin: left center;
+  }
+
+  [dir="rtl"] .draw-link:hover::after,
+  [dir="rtl"] .draw-link:focus-visible::after,
+  [dir="rtl"] .draw-link[aria-current="page"]::after {
+    transform-origin: right center;
+  }
+
+  .arrow {
+    display: inline-block;
+  }
+
+  [dir="rtl"] .arrow {
+    transform: scaleX(-1);
+  }
+
+  /* Underline-only form fields, like annotations on a sheet */
+  .field {
+    display: grid;
+    gap: 0.35rem;
+  }
+
+  .field-label {
+    font-family: var(--font-mono);
+    font-size: var(--t-mono);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .field-input {
+    width: 100%;
+    min-height: 3rem;
+    padding: 0.6rem 0;
+    border: 0;
+    border-bottom: 1px solid currentColor;
+    border-radius: 0;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    appearance: none;
+  }
+
+  .field-input:focus-visible {
+    outline: none;
+    border-bottom-color: var(--color-clay);
+    box-shadow: 0 1px 0 0 var(--color-clay);
+  }
+
+  .field-input[aria-invalid="true"] {
+    border-bottom-color: var(--color-clay);
+  }
+
+  select.field-input {
+    background-image: linear-gradient(45deg, transparent 50%, currentColor 50%), linear-gradient(135deg, currentColor 50%, transparent 50%);
+    background-position: calc(100% - 10px) 55%, calc(100% - 5px) 55%;
+    background-size: 5px 5px;
+    background-repeat: no-repeat;
+  }
+
+  [dir="rtl"] select.field-input {
+    background-position: 10px 55%, 15px 55%;
+  }
+
+  .on-ink select.field-input option {
+    background: var(--color-ink);
+  }
+
+  textarea.field-input {
+    min-height: 7rem;
+    resize: vertical;
+  }
+
+  .field-error {
+    color: var(--color-clay);
+    font-size: 0.875rem;
+  }
+
+  .on-ink .field-error {
+    color: #e9a083;
+  }
+
+  /* Placeholder flag on anything unverified */
+  .tbc {
+    text-decoration: underline dotted;
+    text-decoration-color: var(--color-clay);
+    text-underline-offset: 0.2em;
+  }
+
+  /* Consistent photo grade so mixed sources read as one shoot */
+  .graded {
+    filter: saturate(0.82) contrast(1.02);
+  }
+
+  .grade-overlay {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: rgba(181, 120, 70, 0.1);
+    mix-blend-mode: multiply;
+  }
+}
+
+/* ---------------------------------------------------------------- 6. Motion helpers */
+@layer utilities {
+  /* Mask reveal: content sits inside .mask-line and rises from below. Visible without JS. */
+  .mask-line {
+    display: block;
+    overflow: hidden;
+    padding-bottom: 0.08em;
+    margin-bottom: -0.08em;
+  }
+
+  .js .reveal-up {
+    opacity: 0;
+    transform: translateY(1.2rem);
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+  .js .reveal-up {
+    transform: none;
+  }
+}
+
+/* Lenis */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+/* View transitions: keep it to a short crossfade under the sheet panel */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.35s;
+  animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Preloader is visible only when the head script marks a first visit */
+.preloader {
+  display: none;
+}
+html.preload .preloader {
+  display: block;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(0.75rem);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes pinPulse {
+  from {
+    transform: scale(0.35);
+    opacity: 1;
+  }
+  to {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+svg .origin-center {
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+/* Arabic: mono labels switch to Plex Sans Arabic without tracking (tracking breaks letter joining) */
+[dir="rtl"] .mono {
+  font-family: var(--font-plex-arabic), var(--font-plex-mono), sans-serif;
+  letter-spacing: 0;
+  text-transform: none;
+}
+[dir="rtl"] .ltr {
+  text-align: right;
+}
+[dir="rtl"] .ltr.mono,
+[dir="rtl"] .mono .ltr {
+  font-family: var(--font-mono);
+  letter-spacing: 0.08em;
+}

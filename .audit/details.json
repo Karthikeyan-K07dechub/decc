@@ -1,0 +1,417 @@
+[
+  {
+    "path": "/en/services/architectural-design",
+    "w": 320,
+    "width": 320,
+    "docWidth": 320,
+    "overflow": []
+  },
+  {
+    "path": "/en/services/architectural-design",
+    "w": 1024,
+    "width": 1009,
+    "docWidth": 1009,
+    "overflow": []
+  },
+  {
+    "path": "/en/services/structural-engineering",
+    "w": 320,
+    "width": 320,
+    "docWidth": 320,
+    "overflow": []
+  },
+  {
+    "path": "/en/services/structural-engineering",
+    "w": 1024,
+    "width": 1009,
+    "docWidth": 1009,
+    "overflow": []
+  },
+  {
+    "path": "/en/services/mep-design",
+    "w": 320,
+    "width": 320,
+    "docWidth": 320,
+    "overflow": []
+  },
+  {
+    "path": "/en/services/mep-design",
+    "w": 1024,
+    "width": 1009,
+    "docWidth": 1009,
+    "overflow": []
+  },
+  {
+    "path": "/en/services/construction-supervision",
+    "w": 320,
+    "width": 320,
+    "docWidth": 320,
+    "overflow": []
+  },
+  {
+    "path": "/en/services/construction-supervision",
+    "w": 1024,
+    "width": 1009,
+    "docWidth": 1009,
+    "overflow": []
+  },
+  {
+    "path": "/en/services/approvals-permits",
+    "w": 320,
+    "width": 320,
+    "docWidth": 328,
+    "overflow": [
+      {
+        "text": "DECCمكتب ديزاينر للإستشارات الهندسيةServicesProjectsAboutCareersContactعربيBook a consultationMenu",
+        "tag": "DIV",
+        "class": "wrap flex h-full items-center justify-between gap-6",
+        "x": 0,
+        "w": 328
+      },
+      {
+        "text": "Sample project",
+        "tag": "SPAN",
+        "class": "mono shrink-0 text-clay",
+        "x": 213.9375,
+        "w": 114.25
+      }
+    ]
+  },
+  {
+    "path": "/en/services/approvals-permits",
+    "w": 1024,
+    "width": 1009,
+    "docWidth": 1009,
+    "overflow": []
+  },
+  {
+    "path": "/en/services/interior-design",
+    "w": 320,
+    "width": 320,
+    "docWidth": 320,
+    "overflow": []
+  },
+  {
+    "path": "/en/services/interior-design",
+    "w": 1024,
+    "width": 1009,
+    "docWidth": 1009,
+    "overflow": []
+  },
+  {
+    "path": "/en/projects/villa-al-dhait",
+    "w": 320,
+    "width": 320,
+    "docWidth": 320,
+    "overflow": []
+  },
+  {
+    "path": "/en/projects/villa-al-dhait",
+    "w": 1024,
+    "width": 1009,
+    "docWidth": 1009,
+    "overflow": []
+  },
+  {
+    "path": "/en/projects/residential-al-nakheel",
+    "w": 320,
+    "width": 320,
+    "docWidth": 320,
+    "overflow": []
+  },
+  {
+    "path": "/en/projects/residential-al-nakheel",
+    "w": 1024,
+    "width": 1009,
+    "docWidth": 1009,
+    "overflow": []
+  },
+  {
+    "path": "/en/projects/mosque-khuzam",
+    "w": 320,
+    "width": 320,
+    "docWidth": 338,
+    "overflow": [
+      {
+        "text": "DECCمكتب ديزاينر للإستشارات الهندسيةServicesProjectsAboutCareersContactعربيBook a consultationMenu",
+        "tag": "DIV",
+        "class": "wrap flex h-full items-center justify-between gap-6",
+        "x": 0,
+        "w": 338
+      }
+    ]
+  },
+  {
+    "path": "/en/projects/mosque-khuzam",
+    "w": 1024,
+    "width": 1009,
+    "docWidth": 1009,
+    "overflow": []
+  },
+  {
+    "path": "/en/projects/warehouse-al-ghail",
+    "w": 320,
+    "width": 320,
+    "docWidth": 320,
+    "overflow": []
+  },
+  {
+    "path": "/en/projects/warehouse-al-ghail",
+    "w": 1024,
+    "width": 1009,
+    "docWidth": 1009,
+    "overflow": []
+  },
+  {
+    "path": "/en/projects/villa-julan",
+    "w": 320,
+    "width": 320,
+    "docWidth": 320,
+    "overflow": []
+  },
+  {
+    "path": "/en/projects/villa-julan",
+    "w": 1024,
+    "width": 1009,
+    "docWidth": 1009,
+    "overflow": []
+  },
+  {
+    "path": "/en/projects/commercial-al-hisn",
+    "w": 320,
+    "width": 320,
+    "docWidth": 320,
+    "overflow": []
+  },
+  {
+    "path": "/en/projects/commercial-al-hisn",
+    "w": 1024,
+    "width": 1009,
+    "docWidth": 1009,
+    "overflow": []
+  },
+  {
+    "path": "/en/projects/residential-dafan",
+    "w": 320,
+    "width": 320,
+    "docWidth": 320,
+    "overflow": []
+  },
+  {
+    "path": "/en/projects/residential-dafan",
+    "w": 1024,
+    "width": 1009,
+    "docWidth": 1009,
+    "overflow": []
+  },
+  {
+    "path": "/en/projects/villa-mina-al-arab",
+    "w": 320,
+    "width": 320,
+    "docWidth": 320,
+    "overflow": []
+  },
+  {
+    "path": "/en/projects/villa-mina-al-arab",
+    "w": 1024,
+    "width": 1009,
+    "docWidth": 1009,
+    "overflow": []
+  },
+  {
+    "path": "/ar/services/architectural-design",
+    "w": 320,
+    "width": 320,
+    "docWidth": 320,
+    "overflow": []
+  },
+  {
+    "path": "/ar/services/architectural-design",
+    "w": 1024,
+    "width": 1009,
+    "docWidth": 1009,
+    "overflow": []
+  },
+  {
+    "path": "/ar/services/structural-engineering",
+    "w": 320,
+    "width": 320,
+    "docWidth": 320,
+    "overflow": []
+  },
+  {
+    "path": "/ar/services/structural-engineering",
+    "w": 1024,
+    "width": 1009,
+    "docWidth": 1009,
+    "overflow": []
+  },
+  {
+    "path": "/ar/services/mep-design",
+    "w": 320,
+    "width": 320,
+    "docWidth": 320,
+    "overflow": []
+  },
+  {
+    "path": "/ar/services/mep-design",
+    "w": 1024,
+    "width": 1009,
+    "docWidth": 1009,
+    "overflow": []
+  },
+  {
+    "path": "/ar/services/construction-supervision",
+    "w": 320,
+    "width": 320,
+    "docWidth": 320,
+    "overflow": []
+  },
+  {
+    "path": "/ar/services/construction-supervision",
+    "w": 1024,
+    "width": 1009,
+    "docWidth": 1009,
+    "overflow": []
+  },
+  {
+    "path": "/ar/services/approvals-permits",
+    "w": 320,
+    "width": 320,
+    "docWidth": 320,
+    "overflow": []
+  },
+  {
+    "path": "/ar/services/approvals-permits",
+    "w": 1024,
+    "width": 1009,
+    "docWidth": 1009,
+    "overflow": []
+  },
+  {
+    "path": "/ar/services/interior-design",
+    "w": 320,
+    "width": 320,
+    "docWidth": 320,
+    "overflow": []
+  },
+  {
+    "path": "/ar/services/interior-design",
+    "w": 1024,
+    "width": 1009,
+    "docWidth": 1009,
+    "overflow": []
+  },
+  {
+    "path": "/ar/projects/villa-al-dhait",
+    "w": 320,
+    "width": 320,
+    "docWidth": 320,
+    "overflow": []
+  },
+  {
+    "path": "/ar/projects/villa-al-dhait",
+    "w": 1024,
+    "width": 1009,
+    "docWidth": 1009,
+    "overflow": []
+  },
+  {
+    "path": "/ar/projects/residential-al-nakheel",
+    "w": 320,
+    "width": 320,
+    "docWidth": 320,
+    "overflow": []
+  },
+  {
+    "path": "/ar/projects/residential-al-nakheel",
+    "w": 1024,
+    "width": 1009,
+    "docWidth": 1009,
+    "overflow": []
+  },
+  {
+    "path": "/ar/projects/mosque-khuzam",
+    "w": 320,
+    "width": 320,
+    "docWidth": 320,
+    "overflow": []
+  },
+  {
+    "path": "/ar/projects/mosque-khuzam",
+    "w": 1024,
+    "width": 1009,
+    "docWidth": 1009,
+    "overflow": []
+  },
+  {
+    "path": "/ar/projects/warehouse-al-ghail",
+    "w": 320,
+    "width": 320,
+    "docWidth": 320,
+    "overflow": []
+  },
+  {
+    "path": "/ar/projects/warehouse-al-ghail",
+    "w": 1024,
+    "width": 1009,
+    "docWidth": 1009,
+    "overflow": []
+  },
+  {
+    "path": "/ar/projects/villa-julan",
+    "w": 320,
+    "width": 320,
+    "docWidth": 320,
+    "overflow": []
+  },
+  {
+    "path": "/ar/projects/villa-julan",
+    "w": 1024,
+    "width": 1009,
+    "docWidth": 1009,
+    "overflow": []
+  },
+  {
+    "path": "/ar/projects/commercial-al-hisn",
+    "w": 320,
+    "width": 320,
+    "docWidth": 320,
+    "overflow": []
+  },
+  {
+    "path": "/ar/projects/commercial-al-hisn",
+    "w": 1024,
+    "width": 1009,
+    "docWidth": 1009,
+    "overflow": []
+  },
+  {
+    "path": "/ar/projects/residential-dafan",
+    "w": 320,
+    "width": 320,
+    "docWidth": 320,
+    "overflow": []
+  },
+  {
+    "path": "/ar/projects/residential-dafan",
+    "w": 1024,
+    "width": 1009,
+    "docWidth": 1009,
+    "overflow": []
+  },
+  {
+    "path": "/ar/projects/villa-mina-al-arab",
+    "w": 320,
+    "width": 320,
+    "docWidth": 320,
+    "overflow": []
+  },
+  {
+    "path": "/ar/projects/villa-mina-al-arab",
+    "w": 1024,
+    "width": 1009,
+    "docWidth": 1009,
+    "overflow": []
+  }
+]

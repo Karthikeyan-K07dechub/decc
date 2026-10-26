@@ -1,0 +1,901 @@
+{
+  "meta": {
+    "siteName": "Designer Engineering Consultants",
+    "titleTemplate": "%s · DECC",
+    "pages": {
+      "home": {
+        "title": "Engineering consultants in Ras Al Khaimah",
+        "description": "Architecture, structure and MEP design, authority approvals and site supervision for villas, buildings and mosques in Ras Al Khaimah since 2009."
+      },
+      "about": {
+        "title": "About DECC",
+        "description": "An engineering office in Julphar Tower, Ras Al Khaimah, designing and supervising buildings since 2009."
+      },
+      "services": {
+        "title": "Services",
+        "description": "Architectural design, structural engineering, MEP design, construction supervision, authority approvals and interior design under one office."
+      },
+      "projects": {
+        "title": "Projects",
+        "description": "Villas, residential buildings, commercial work, mosques and warehouses designed and supervised by DECC."
+      },
+      "careers": {
+        "title": "Careers",
+        "description": "Join an engineering office in Ras Al Khaimah where architects and engineers work on the same drawing set."
+      },
+      "contact": {
+        "title": "Contact",
+        "description": "Julphar Tower, 10th floor, Ras Al Khaimah. Call +971 7 233 6166 or WhatsApp +971 56 210 1661."
+      },
+      "notFound": {
+        "title": "Sheet not found",
+        "description": "This sheet is not in the set."
+      }
+    }
+  },
+  "brand": {
+    "name": "Designer Engineering Consultants",
+    "nameAr": "مكتب ديزاينر للإستشارات الهندسية",
+    "tagline": "Engineered in Ras Al Khaimah since 2009."
+  },
+  "common": {
+    "book": "Book a consultation",
+    "seeProjects": "See our projects",
+    "whatsapp": "WhatsApp",
+    "call": "Call",
+    "email": "Email",
+    "viewProject": "View project",
+    "view": "View",
+    "explore": "Explore",
+    "allServices": "All services",
+    "allProjects": "All projects",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "menu": "Menu",
+    "skip": "Skip to content",
+    "switchLanguage": "عربي",
+    "switchLanguageLabel": "Switch to Arabic",
+    "sheet": "Sheet",
+    "scale": "Scale",
+    "scroll": "Scroll",
+    "rev": "Rev",
+    "drawnBy": "Drawn by",
+    "date": "Date",
+    "project": "Project",
+    "placeholder": "Placeholder",
+    "sampleProject": "Sample project",
+    "toConfirm": "To confirm",
+    "photoPlaceholder": "Photo placeholder",
+    "copied": "Copied",
+    "copy": "Copy",
+    "directions": "Get directions",
+    "hours": "Sun–Thu 9:00–18:00",
+    "hoursLabel": "Hours",
+    "replyTime": "We reply within 1 working day.",
+    "included": "Included",
+    "notIncluded": "Not included",
+    "breadcrumb": "Breadcrumb"
+  },
+  "nav": {
+    "services": "Services",
+    "projects": "Projects",
+    "about": "About",
+    "careers": "Careers",
+    "contact": "Contact",
+    "servicesIntro": "Six disciplines, one drawing set.",
+    "primary": "Primary"
+  },
+  "preloader": {
+    "label": "Loading the drawing set"
+  },
+  "home": {
+    "hero": {
+      "headline": "Engineered in Ras Al Khaimah since 2009",
+      "subline": "Architecture, structure and MEP design, with site supervision through to handover.",
+      "sceneLabel": "A villa drawn as wireframe lines that become a finished building as you scroll"
+    },
+    "credentials": {
+      "label": "Credentials",
+      "since": "Since",
+      "years": "Years",
+      "projects": "Projects",
+      "approvals": "RAK Municipality approvals",
+      "approvalsShort": "RAK",
+      "dimension": "Years in practice"
+    },
+    "exploded": {
+      "title": "Every layer, one office",
+      "intro": "A building is five drawings stacked on top of each other. We draw all five.",
+      "sceneLabel": "A five-storey residential block separating into its layers",
+      "layers": [
+        {
+          "name": "Foundation",
+          "service": "Structural engineering",
+          "text": "Soil report, footing design and the slab that carries everything above it."
+        },
+        {
+          "name": "Structural frame",
+          "service": "Structural engineering",
+          "text": "Columns, beams and slabs sized for the load, checked against UAE codes."
+        },
+        {
+          "name": "MEP",
+          "service": "MEP design",
+          "text": "Cooling, drainage, water and power routed through the frame before it is poured."
+        },
+        {
+          "name": "Facade",
+          "service": "Architectural design",
+          "text": "Screens, parapets and openings that shade the rooms and suit the street."
+        },
+        {
+          "name": "Interiors",
+          "service": "Interior design",
+          "text": "Room layouts, finishes and lighting, coordinated with every service behind the walls."
+        }
+      ],
+      "complete": "Complete building"
+    },
+    "services": {
+      "title": "Six disciplines",
+      "intro": "Each one has its own sheet. All of them come from the same office."
+    },
+    "projects": {
+      "title": "Selected work",
+      "progress": "Project"
+    },
+    "process": {
+      "title": "From brief to handover",
+      "steps": [
+        {
+          "title": "Brief",
+          "text": "We visit the plot, listen and agree what the building must do."
+        },
+        {
+          "title": "Concept design",
+          "text": "Plans, massing and a first cost picture you can react to."
+        },
+        {
+          "title": "Authority approvals",
+          "text": "Drawings prepared and submitted to RAK Municipality and Civil Defence."
+        },
+        {
+          "title": "Detailed drawings",
+          "text": "Architecture, structure and MEP coordinated into one tender set."
+        },
+        {
+          "title": "Site supervision & handover",
+          "text": "Regular site inspections until the keys are handed over."
+        }
+      ]
+    },
+    "sectors": {
+      "title": "Sectors",
+      "list": [
+        "Villas",
+        "Residential",
+        "Commercial",
+        "Mosques",
+        "Industrial"
+      ]
+    },
+    "why": {
+      "title": "Why DECC",
+      "reasons": [
+        {
+          "title": "One office for every discipline",
+          "text": "Architects and engineers sit in the same room. Clashes are solved on paper, not on site."
+        },
+        {
+          "title": "Local approvals knowledge since 2009",
+          "text": "We know what RAK Municipality and Civil Defence ask for, so submissions go through with fewer rounds."
+        },
+        {
+          "title": "Supervision until handover",
+          "text": "The engineer who drew it inspects it. We stay until the building is complete."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Planning a villa or building in Ras Al Khaimah?",
+      "text": "Tell us about the plot. An engineer will call you back.",
+      "success": "Thank you. We will call you within 1 working day."
+    },
+    "testimonials": {
+      "title": "Clients"
+    }
+  },
+  "services": {
+    "hubTitle": "Six disciplines under one roof",
+    "hubIntro": "Most projects need more than one consultant. With DECC, every drawing comes from the same office, so architecture, structure and services fit together before work starts on site.",
+    "deliverables": "Deliverables",
+    "process": "How it works",
+    "related": "Related projects",
+    "faq": "Questions",
+    "ctaTitle": "Start with a conversation",
+    "ctaText": "Tell us about your plot and we will tell you what the next step is.",
+    "compare": {
+      "title": "Choose your scope",
+      "intro": "Three common ways to work with us. Every project is quoted on its own drawings.",
+      "columns": [
+        "Design only",
+        "Design + approvals",
+        "Design + supervision"
+      ],
+      "rows": [
+        {
+          "label": "Concept and architectural drawings",
+          "values": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "label": "Structural and MEP design",
+          "values": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "label": "RAK Municipality submission",
+          "values": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "label": "Civil Defence approval",
+          "values": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "label": "Tender documents",
+          "values": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "label": "Site inspections",
+          "values": [
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "label": "Completion certificate support",
+          "values": [
+            false,
+            false,
+            true
+          ]
+        }
+      ]
+    },
+    "items": {
+      "architectural-design": {
+        "title": "Architectural design",
+        "short": "Villas, buildings and mosques drawn from the plot up. Plans that work for the family and the street.",
+        "hero": "Plans that start with how you live",
+        "intro": "We design from the plot and the brief: setbacks, sun, privacy and the way your family uses the house. Every plan is drawn to be approved and to be built.",
+        "deliverables": [
+          "Site analysis and zoning check",
+          "Concept plans and massing",
+          "3D views for approval",
+          "Detailed architectural drawings",
+          "Door, window and finishes schedules"
+        ],
+        "process": [
+          {
+            "title": "Brief and site visit",
+            "text": "We measure the plot and agree the room list."
+          },
+          {
+            "title": "Concept options",
+            "text": "Two or three layouts to compare."
+          },
+          {
+            "title": "Developed design",
+            "text": "One plan refined with elevations and 3D views."
+          },
+          {
+            "title": "Working drawings",
+            "text": "The full set for approval and tender."
+          }
+        ],
+        "faq": [
+          {
+            "q": "How long does a villa design take?",
+            "a": "Concept design usually takes a few weeks. The full drawing set depends on the size of the villa and how quickly decisions are made."
+          },
+          {
+            "q": "Can you design to my budget?",
+            "a": "Yes. We set a target area and specification at the start and check the design against it at each stage."
+          },
+          {
+            "q": "Do you design traditional and contemporary styles?",
+            "a": "Both. Many of our villas mix contemporary lines with screens, courtyards and parapets from local architecture."
+          },
+          {
+            "q": "Will the design be approved by the municipality?",
+            "a": "We design to RAK Municipality regulations from the first sketch, so the approval drawings follow directly from the design."
+          }
+        ]
+      },
+      "structural-engineering": {
+        "title": "Structural engineering",
+        "short": "Foundations, frames and slabs sized for the load and checked against UAE codes.",
+        "hero": "The part of the building you never see",
+        "intro": "We design the structure that carries the building: foundations for the soil on your plot, and a frame that is safe, economical and easy to build.",
+        "deliverables": [
+          "Soil report review",
+          "Foundation design",
+          "Column, beam and slab design",
+          "Structural calculations",
+          "Reinforcement drawings and schedules"
+        ],
+        "process": [
+          {
+            "title": "Soil and loads",
+            "text": "We read the soil report and set the design loads."
+          },
+          {
+            "title": "Structural system",
+            "text": "Grid, spans and materials agreed with the architect."
+          },
+          {
+            "title": "Analysis",
+            "text": "Every element checked by calculation."
+          },
+          {
+            "title": "Drawings",
+            "text": "Reinforcement details ready for site."
+          }
+        ],
+        "faq": [
+          {
+            "q": "Do I need a soil test?",
+            "a": "Yes. RAK Municipality requires a soil investigation, and the foundation design depends on it. We can arrange one."
+          },
+          {
+            "q": "Can you check an existing structure?",
+            "a": "Yes. We assess existing buildings for extensions, additional floors or visible defects."
+          },
+          {
+            "q": "Concrete or steel?",
+            "a": "Most villas and residential buildings are reinforced concrete. Steel suits warehouses and long spans. We recommend what fits the project."
+          },
+          {
+            "q": "Who checks the structure on site?",
+            "a": "If you appoint us for supervision, our engineers inspect the reinforcement before each pour."
+          }
+        ]
+      },
+      "mep-design": {
+        "title": "MEP design",
+        "short": "Cooling, drainage, water and power routed through the building before the concrete is poured.",
+        "hero": "Comfort, designed into the frame",
+        "intro": "Mechanical, electrical and plumbing systems take space. We plan their routes together with the structure, so ducts and pipes fit without cutting beams on site.",
+        "deliverables": [
+          "Cooling load calculations",
+          "HVAC layouts",
+          "Drainage and water supply",
+          "Electrical and lighting layouts",
+          "Fire fighting and alarm design",
+          "Load schedule for FEWA / RAK utilities"
+        ],
+        "process": [
+          {
+            "title": "Loads",
+            "text": "Cooling, power and water demand for every room."
+          },
+          {
+            "title": "Systems",
+            "text": "Equipment and routes chosen with the architect."
+          },
+          {
+            "title": "Coordination",
+            "text": "Ducts and pipes checked against the structure."
+          },
+          {
+            "title": "Drawings",
+            "text": "Layouts and schedules for approval and tender."
+          }
+        ],
+        "faq": [
+          {
+            "q": "Do you design for Civil Defence approval?",
+            "a": "Yes. Fire fighting and fire alarm drawings are prepared to Civil Defence requirements."
+          },
+          {
+            "q": "Can you reduce cooling costs?",
+            "a": "Shading, insulation and correctly sized equipment make the largest difference. We consider all three."
+          },
+          {
+            "q": "Do you design solar or smart home systems?",
+            "a": "We can allow for them in the electrical design and coordinate with specialist suppliers."
+          },
+          {
+            "q": "Is MEP design needed for a villa?",
+            "a": "Yes. MEP drawings are part of the municipality submission and the contractor prices from them."
+          }
+        ]
+      },
+      "construction-supervision": {
+        "title": "Construction supervision",
+        "short": "The engineer who drew it inspects it, from the first excavation to the final certificate.",
+        "hero": "On site until the keys are handed over",
+        "intro": "Supervision makes sure the building on site matches the drawings. We inspect key stages, approve materials and keep you informed.",
+        "deliverables": [
+          "Stage inspections",
+          "Material and shop drawing approvals",
+          "Site reports with photos",
+          "Contractor payment certificates",
+          "Snagging and handover"
+        ],
+        "process": [
+          {
+            "title": "Mobilisation",
+            "text": "Setting-out checked before excavation."
+          },
+          {
+            "title": "Structure",
+            "text": "Reinforcement inspected before every pour."
+          },
+          {
+            "title": "Finishes and services",
+            "text": "Materials approved against the specification."
+          },
+          {
+            "title": "Handover",
+            "text": "Snag list, completion certificate and keys."
+          }
+        ],
+        "faq": [
+          {
+            "q": "How often do you visit the site?",
+            "a": "At every key stage and on a regular schedule agreed in the contract."
+          },
+          {
+            "q": "Do you work with any contractor?",
+            "a": "Yes. We can also help you compare tenders and choose one."
+          },
+          {
+            "q": "Do I get reports?",
+            "a": "Yes, written reports with photos after inspections."
+          },
+          {
+            "q": "Who issues the completion certificate?",
+            "a": "The municipality, after inspection. We prepare and submit the documents."
+          }
+        ]
+      },
+      "approvals-permits": {
+        "title": "Approvals and permits",
+        "short": "Drawings prepared, submitted and followed up with RAK Municipality and Civil Defence.",
+        "hero": "The right drawings, the first time",
+        "intro": "Approvals take time when drawings are returned for corrections. We prepare submissions to the current requirements and follow them through.",
+        "deliverables": [
+          "Building permit applications",
+          "Civil Defence submissions",
+          "Utility applications",
+          "Amendment and extension permits",
+          "Completion certificate applications"
+        ],
+        "process": [
+          {
+            "title": "Check",
+            "text": "Plot, zoning and requirements confirmed."
+          },
+          {
+            "title": "Prepare",
+            "text": "Drawings and forms completed."
+          },
+          {
+            "title": "Submit",
+            "text": "Applications lodged with each authority."
+          },
+          {
+            "title": "Follow up",
+            "text": "Comments answered until approval."
+          }
+        ],
+        "faq": [
+          {
+            "q": "Can you get approval for drawings made by someone else?",
+            "a": "We can review them and resubmit under our name once they meet the requirements."
+          },
+          {
+            "q": "How long does approval take?",
+            "a": "It depends on the authority and the project. Complete submissions are approved faster."
+          },
+          {
+            "q": "Do I need a permit for an extension?",
+            "a": "Yes. Extensions and added floors need a permit and usually a structural check."
+          },
+          {
+            "q": "Do you handle Civil Defence?",
+            "a": "Yes, as part of the same submission package."
+          }
+        ]
+      },
+      "interior-design": {
+        "title": "Interior design",
+        "short": "Room layouts, finishes and lighting, coordinated with every service behind the walls.",
+        "hero": "Rooms that are calm to live in",
+        "intro": "Interior design starts with the plan: where furniture stands, where light falls and where services run. We design interiors together with the building, not after it.",
+        "deliverables": [
+          "Space planning",
+          "Finishes and materials",
+          "Lighting design",
+          "Joinery details",
+          "Furniture and fittings schedule"
+        ],
+        "process": [
+          {
+            "title": "Brief",
+            "text": "How each room is used and by whom."
+          },
+          {
+            "title": "Concept",
+            "text": "Mood, materials and layout."
+          },
+          {
+            "title": "Details",
+            "text": "Drawings for joinery, ceilings and lighting."
+          },
+          {
+            "title": "Site",
+            "text": "Samples approved and installation checked."
+          }
+        ],
+        "faq": [
+          {
+            "q": "Do you design majlis interiors?",
+            "a": "Yes. Majlis, family living and private areas each have their own requirements, and we design them together."
+          },
+          {
+            "q": "Can you design interiors for an existing villa?",
+            "a": "Yes. We survey the villa first and work with what is there."
+          },
+          {
+            "q": "Do you supply furniture?",
+            "a": "We specify and coordinate with suppliers you choose."
+          },
+          {
+            "q": "Will lighting be coordinated with the ceiling?",
+            "a": "Yes. Lighting, cooling and ceiling design are drawn together."
+          }
+        ]
+      }
+    }
+  },
+  "projects": {
+    "title": "Drawings that got built",
+    "intro": "A selection across our five sectors. The projects below are samples until DECC's own portfolio is added.",
+    "filterSector": "Sector",
+    "filterStatus": "Status",
+    "all": "All",
+    "status": {
+      "completed": "Completed",
+      "construction": "Under construction"
+    },
+    "sectors": {
+      "villas": "Villas",
+      "residential": "Residential",
+      "commercial": "Commercial",
+      "mosques": "Mosques",
+      "industrial": "Industrial"
+    },
+    "empty": "No projects match these filters.",
+    "schedule": {
+      "type": "Type",
+      "location": "Location",
+      "plotArea": "Plot area",
+      "floors": "Floors",
+      "year": "Year",
+      "scope": "DECC scope",
+      "status": "Status"
+    },
+    "brief": "Brief",
+    "solution": "Solution",
+    "gallery": "Gallery",
+    "drawing": "Drawing",
+    "photo": "Photo",
+    "compareLabel": "Drag to compare the drawing with the photo",
+    "nextProject": "Next project",
+    "previousProject": "Previous project",
+    "items": {
+      "villa-al-dhait": {
+        "title": "Courtyard villa, Al Dhait",
+        "location": "Al Dhait, Ras Al Khaimah",
+        "brief": "A family villa around a shaded courtyard, with a separate majlis for guests and private rooms upstairs.",
+        "solution": "Two wings linked by a covered walkway, deep parapets and screen walls on the street side, and a structure planned around the courtyard spans."
+      },
+      "residential-al-nakheel": {
+        "title": "Residential building, Al Nakheel",
+        "location": "Al Nakheel, Ras Al Khaimah",
+        "brief": "Apartments on a narrow plot with parking at ground level.",
+        "solution": "A transfer slab over the parking, stacked services cores and balconies shaded by the floor above."
+      },
+      "mosque-khuzam": {
+        "title": "Neighbourhood mosque, Khuzam",
+        "location": "Khuzam, Ras Al Khaimah",
+        "brief": "A mosque for a residential district, with ablution areas and a women's prayer hall.",
+        "solution": "A clear-span prayer hall under a concrete dome, with quiet cooling designed around prayer times."
+      },
+      "warehouse-al-ghail": {
+        "title": "Warehouse, Al Ghail",
+        "location": "Al Ghail Industrial Area, Ras Al Khaimah",
+        "brief": "A storage warehouse with offices and loading bays.",
+        "solution": "A steel portal frame on pad foundations, with a mezzanine office and fire fighting to Civil Defence requirements."
+      },
+      "villa-julan": {
+        "title": "Contemporary villa, Julan",
+        "location": "Julan, Ras Al Khaimah",
+        "brief": "A two-storey villa with a large family living area and views to the mountains.",
+        "solution": "A double-height living room facing the view, shaded glazing and interiors designed with the house."
+      },
+      "commercial-al-hisn": {
+        "title": "Commercial building, Al Hisn",
+        "location": "Al Hisn, Ras Al Khaimah",
+        "brief": "Shops at street level with offices above.",
+        "solution": "An open retail floor, flexible office floors and a services strategy that lets each tenant fit out separately."
+      },
+      "residential-dafan": {
+        "title": "Residential building, Dafan Al Nakheel",
+        "location": "Dafan Al Nakheel, Ras Al Khaimah",
+        "brief": "A six-storey residential building on a corner plot.",
+        "solution": "A regular column grid for economy and fast construction, supervised stage by stage."
+      },
+      "villa-mina-al-arab": {
+        "title": "Villa, Mina Al Arab",
+        "location": "Mina Al Arab, Ras Al Khaimah",
+        "brief": "A villa close to the water, with interiors designed at the same time as the building.",
+        "solution": "Rooms arranged for sea breezes, materials chosen for the coastal climate and interiors coordinated with services."
+      }
+    },
+    "scheduleTitle": "Schedule"
+  },
+  "about": {
+    "heroTitle": "Seventeen years of drawings that got built.",
+    "heroText": "Designer Engineering Consultants opened in Ras Al Khaimah in 2009. Since then we have designed and supervised villas, residential buildings, mosques and warehouses across the emirate.",
+    "storyTitle": "The story so far",
+    "timeline": [
+      {
+        "year": "2009",
+        "text": "Office opens in Ras Al Khaimah.",
+        "confirmed": true
+      },
+      {
+        "year": "00",
+        "text": "First residential building approved.",
+        "confirmed": false
+      },
+      {
+        "year": "00",
+        "text": "First mosque designed and supervised.",
+        "confirmed": false
+      },
+      {
+        "year": "00",
+        "text": "Interior design added as a service.",
+        "confirmed": false
+      },
+      {
+        "year": "00",
+        "text": "Move to Julphar Tower, 10th floor.",
+        "confirmed": false
+      },
+      {
+        "year": "2026",
+        "text": "Seventeen years in practice.",
+        "confirmed": true
+      }
+    ],
+    "valuesTitle": "How we work",
+    "values": [
+      {
+        "title": "Precise",
+        "text": "Drawings complete enough to build from, with no gaps for the contractor to guess."
+      },
+      {
+        "title": "Local",
+        "text": "Designed for the climate, the plots and the regulations of Ras Al Khaimah."
+      },
+      {
+        "title": "Present",
+        "text": "We answer the phone, visit the site and stay until handover."
+      }
+    ],
+    "teamTitle": "The office",
+    "teamIntro": "Architects, structural engineers, MEP engineers and site engineers in one office.",
+    "team": [
+      {
+        "name": "Name to confirm",
+        "role": "Managing Director"
+      },
+      {
+        "name": "Name to confirm",
+        "role": "Lead Architect"
+      },
+      {
+        "name": "Name to confirm",
+        "role": "Structural Engineer"
+      },
+      {
+        "name": "Name to confirm",
+        "role": "MEP Engineer"
+      },
+      {
+        "name": "Name to confirm",
+        "role": "Site Engineer"
+      },
+      {
+        "name": "Name to confirm",
+        "role": "Interior Designer"
+      }
+    ],
+    "licencesTitle": "Licences and registrations",
+    "licences": [
+      {
+        "title": "RAK Municipality consultant registration",
+        "value": "Reg. no. 00"
+      },
+      {
+        "title": "Civil Defence approved consultant",
+        "value": "Reg. no. 00"
+      },
+      {
+        "title": "Trade licence, Ras Al Khaimah",
+        "value": "No. 00"
+      },
+      {
+        "title": "Society of Engineers UAE membership",
+        "value": "To confirm"
+      }
+    ],
+    "officeTitle": "Julphar Tower, 10th floor",
+    "officeText": "Our office is in Julphar Tower on Al Hisn Street, offices 1004–1005. Visit us Sunday to Thursday, 9:00 to 18:00."
+  },
+  "careers": {
+    "heroTitle": "Draw buildings that get built",
+    "heroText": "We are a small office where architects and engineers work on the same projects, from first sketch to site.",
+    "whyTitle": "Why work at DECC",
+    "why": [
+      {
+        "title": "Every discipline in one room",
+        "text": "Learn how architecture, structure and services fit together."
+      },
+      {
+        "title": "Real projects in Ras Al Khaimah",
+        "text": "Villas, mosques and buildings you can visit when they are finished."
+      },
+      {
+        "title": "Design and site",
+        "text": "See your drawings become concrete."
+      }
+    ],
+    "rolesTitle": "Open roles",
+    "rolesNote": "Sample roles. Confirm current openings before publishing.",
+    "roles": [
+      {
+        "title": "Architect",
+        "type": "Full time · Ras Al Khaimah",
+        "text": "Develop villa and residential designs from concept to working drawings.",
+        "requirements": [
+          "Degree in architecture",
+          "UAE experience preferred",
+          "Revit and AutoCAD",
+          "Arabic and English an advantage"
+        ]
+      },
+      {
+        "title": "Structural Engineer",
+        "type": "Full time · Ras Al Khaimah",
+        "text": "Design reinforced concrete and steel structures and prepare calculations and drawings.",
+        "requirements": [
+          "Degree in civil or structural engineering",
+          "ETABS / SAFE",
+          "Knowledge of UAE codes",
+          "Society of Engineers registration an advantage"
+        ]
+      },
+      {
+        "title": "Site Engineer",
+        "type": "Full time · Ras Al Khaimah",
+        "text": "Inspect sites, approve materials and report progress to clients.",
+        "requirements": [
+          "Degree in civil engineering",
+          "Site experience in the UAE",
+          "UAE driving licence",
+          "Clear written reports"
+        ]
+      }
+    ],
+    "formTitle": "Apply",
+    "formIntro": "Send your CV and a short note. We read every application.",
+    "role": "Role",
+    "generalApplication": "General application",
+    "cv": "CV (PDF, up to 5 MB)",
+    "cvHint": "PDF or Word document",
+    "success": "Thank you. Your application has been received."
+  },
+  "contact": {
+    "heroTitle": "Visit the office, or call us",
+    "heroText": "Julphar Tower, 10th floor, Ras Al Khaimah.",
+    "addressLabel": "Office",
+    "address": "Julphar Tower, 10th floor, offices 1004–1005, Al Hisn Street, Ras Al Khaimah",
+    "formTitle": "Send an enquiry",
+    "mapLabel": "Map of Ras Al Khaimah with Julphar Tower marked",
+    "mapCaption": "Julphar Tower · Al Hisn Street",
+    "success": "Thank you. We will reply within 1 working day."
+  },
+  "form": {
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email",
+    "projectType": "Project type",
+    "projectTypes": {
+      "villa": "Villa or palace",
+      "residential": "Residential building",
+      "commercial": "Commercial building",
+      "mosque": "Mosque",
+      "industrial": "Warehouse or industrial",
+      "other": "Other"
+    },
+    "service": "Service",
+    "location": "Plot location",
+    "stage": "Stage",
+    "stages": {
+      "land": "Just bought land",
+      "drawings": "Have drawings",
+      "construction": "Under construction"
+    },
+    "message": "Message",
+    "submit": "Send enquiry",
+    "requestCall": "Request a call",
+    "apply": "Send application",
+    "sending": "Sending…",
+    "select": "Select",
+    "optional": "optional",
+    "errors": {
+      "required": "Please fill in this field.",
+      "phone": "Enter a phone number, e.g. +971 50 123 4567.",
+      "email": "Enter a valid email address.",
+      "file": "Upload a PDF or Word file up to 5 MB.",
+      "server": "Something went wrong. Please call or WhatsApp us."
+    }
+  },
+  "footer": {
+    "titleBlock": "Title block",
+    "projectValue": "DECC website",
+    "drawnByValue": "DECC",
+    "scaleValue": "1:100",
+    "revValue": "01",
+    "contact": "Contact",
+    "pages": "Sheets",
+    "social": "Social",
+    "rights": "All rights reserved.",
+    "credits": "Photography: Unsplash (placeholder images)"
+  },
+  "notFound": {
+    "title": "Sheet not found",
+    "text": "This sheet is not in the set. It may have been renumbered or removed.",
+    "home": "Back to sheet A-000"
+  },
+  "mobileBar": {
+    "call": "Call",
+    "whatsapp": "WhatsApp"
+  }
+}
