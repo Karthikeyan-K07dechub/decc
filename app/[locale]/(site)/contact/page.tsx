@@ -34,7 +34,7 @@ export default async function ContactPage({ params }: Props) {
       <section className="border-b border-ink/15 bg-gypsum">
         <ul className="wrap grid gap-px bg-ink/15 sm:grid-cols-2 lg:grid-cols-4">
           {cards.map((c) => (
-            <li key={c.label} className="bg-gypsum py-8 sm:px-6 lg:py-10">
+            <li key={c.label} className="bg-gypsum px-6 py-8 lg:py-10">
               <p className="mono text-concrete-soft">{c.label}</p>
               {c.href ? (
                 <a href={c.href} className={`draw-link mt-3 inline-block text-xl ${c.ltr ? "ltr" : ""}`} {...(c.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}>
@@ -60,7 +60,7 @@ export default async function ContactPage({ params }: Props) {
               </Suspense>
             </div>
           </div>
-          <div className="lg:col-span-5 lg:col-start-8">
+          <div className="min-w-0 lg:col-span-5 lg:col-start-8">
             <RakMap label={t("contact.mapLabel")} caption={t("contact.mapCaption")} />
             <div className="mt-8 border-t border-ink/15 pt-6">
               <p className="mono text-concrete-soft">{t("contact.addressLabel")}</p>

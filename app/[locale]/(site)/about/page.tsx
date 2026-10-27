@@ -7,6 +7,9 @@ import { Photo } from "@/components/ui/Photo";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { CtaBand } from "@/components/ui/CtaBand";
 import { Portrait } from "@/components/ui/Portrait";
+import type { ImageId } from "@/lib/images";
+
+const TEAM_PORTRAITS: ImageId[] = ["teamDirector", "teamArchitect", "teamStructural", "teamMep", "teamSite", "teamInterior"];
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -38,6 +41,9 @@ export default async function AboutPage({ params }: Props) {
       <section className="section bg-gypsum" aria-labelledby="story-title">
         <div className="wrap">
           <SectionHead code="A-101" title={t("storyTitle")} />
+          {timeline.some((it) => !it.confirmed) && (
+            <p className="mt-6 text-sm text-concrete-soft">{t("timelineNote")}</p>
+          )}
           <ol className="relative mt-16 grid gap-0 border-s border-teal/50 lg:grid-cols-6 lg:border-s-0 lg:border-t">
             {timeline.map((it, i) => (
               <li key={i} className="relative ps-8 pb-10 lg:ps-0 lg:pe-6 lg:pt-8" data-fade data-delay={String(i * 0.06)}>
@@ -71,13 +77,12 @@ export default async function AboutPage({ params }: Props) {
       <section className="section bg-gypsum" aria-labelledby="team-title">
         <div className="wrap">
           <SectionHead code="A-103" title={t("teamTitle")} intro={t("teamIntro")} />
-          <ul className="mt-14 grid grid-cols-2 gap-x-6 gap-y-12 md:grid-cols-3 lg:grid-cols-6">
+          <p className="mt-6 text-sm text-concrete-soft">{t("teamSampleNote")}</p>
+          <ul className="mt-10 grid grid-cols-2 gap-x-6 gap-y-12 md:grid-cols-3 lg:grid-cols-6">
             {team.map((m, i) => (
               <li key={i} data-fade data-delay={String(i * 0.05)}>
-                <Portrait seed={i} label={tc("photoPlaceholder")} />
-                <p className="mt-4 font-medium">
-                  <span className="tbc">{m.name}</span>
-                </p>
+                <Portrait image={TEAM_PORTRAITS[i]} />
+                <p className="mt-4 font-medium">{m.name}</p>
                 <p className="mono mt-1 text-concrete-soft">{m.role}</p>
               </li>
             ))}
@@ -108,7 +113,7 @@ export default async function AboutPage({ params }: Props) {
           <div className="relative min-h-[60svh]" data-wipe>
             <Photo id="officeTower" sizes="(min-width: 1024px) 50vw, 100vw" />
           </div>
-          <div className="wrap section flex flex-col justify-center">
+          <div className="wrap section flex flex-col justify-center max-lg:pb-8">
             <p className="sheet-code mono ltr text-ink-muted">A-105 · {company.coords.label}</p>
             <h2 id="office-title" className="display h2 mt-6 max-w-[14ch]" data-split>
               {t("officeTitle")}
@@ -121,7 +126,7 @@ export default async function AboutPage({ params }: Props) {
         </div>
       </section>
 
-      <CtaBand />
+      <CtaBand className="max-lg:pt-8" />
     </>
   );
 }

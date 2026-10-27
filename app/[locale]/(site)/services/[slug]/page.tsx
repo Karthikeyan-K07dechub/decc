@@ -61,7 +61,11 @@ export default async function ServicePage({ params }: Props) {
       <section className="section bg-gypsum" aria-labelledby="deliverables-title">
         <div className="wrap grid gap-12 lg:grid-cols-12">
           <div className="lg:col-span-5">
-            <SectionHead code={`${s.code}.1`} title={t("services.deliverables")} />
+            <SectionHead
+              code={`${s.code}.1`}
+              title={t("services.deliverables")}
+              size="h2-compact"
+            />
           </div>
           <ol className="lg:col-span-7">
             {deliverables.map((d, i) => (

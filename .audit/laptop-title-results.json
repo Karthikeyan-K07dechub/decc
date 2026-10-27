@@ -1,0 +1,2264 @@
+[
+  {
+    "path": "/en/services/architectural-design",
+    "width": 1024,
+    "height": 600,
+    "docWidth": 1009,
+    "viewport": 1024,
+    "h2": [
+      {
+        "text": "Deliverables",
+        "font": 35.84,
+        "left": 32.765625,
+        "right": 397.875,
+        "width": 365.109375,
+        "parent": {
+          "left": 32.765625,
+          "right": 397.875,
+          "width": 365.109375
+        },
+        "scrollWidth": 365
+      },
+      {
+        "text": "How it works",
+        "font": 35.84,
+        "left": 32.765625,
+        "right": 524.984375,
+        "width": 492.21875,
+        "parent": {
+          "left": 32.765625,
+          "right": 976.234375,
+          "width": 943.46875
+        },
+        "scrollWidth": 492
+      },
+      {
+        "text": "Related projects",
+        "font": 35.84,
+        "left": 32.765625,
+        "right": 524.984375,
+        "width": 492.21875,
+        "parent": {
+          "left": 32.765625,
+          "right": 976.234375,
+          "width": 943.46875
+        },
+        "scrollWidth": 492
+      },
+      {
+        "text": "Questions",
+        "font": 35.84,
+        "left": 32.765625,
+        "right": 315.25,
+        "width": 282.484375,
+        "parent": {
+          "left": 32.765625,
+          "right": 315.25,
+          "width": 282.484375
+        },
+        "scrollWidth": 282
+      },
+      {
+        "text": "Start with a conversation",
+        "font": 35.84,
+        "left": 32.765625,
+        "right": 470.296875,
+        "width": 437.53125,
+        "parent": {
+          "left": 32.765625,
+          "right": 554.109375,
+          "width": 521.34375
+        },
+        "scrollWidth": 438
+      }
+    ],
+    "h1": 47.104,
+    "accordion": [
+      18,
+      18,
+      18,
+      18
+    ]
+  },
+  {
+    "path": "/en/services/architectural-design",
+    "width": 1366,
+    "height": 768,
+    "docWidth": 1351,
+    "viewport": 1366,
+    "h2": [
+      {
+        "text": "Deliverables",
+        "font": 47.81,
+        "left": 43.703125,
+        "right": 542.1875,
+        "width": 498.484375,
+        "parent": {
+          "left": 43.703125,
+          "right": 542.1875,
+          "width": 498.484375
+        },
+        "scrollWidth": 498
+      },
+      {
+        "text": "How it works",
+        "font": 47.81,
+        "left": 43.703125,
+        "right": 700.3125,
+        "width": 656.609375,
+        "parent": {
+          "left": 43.703125,
+          "right": 1307.296875,
+          "width": 1263.59375
+        },
+        "scrollWidth": 657
+      },
+      {
+        "text": "Related projects",
+        "font": 47.81,
+        "left": 43.703125,
+        "right": 700.3125,
+        "width": 656.609375,
+        "parent": {
+          "left": 43.703125,
+          "right": 1307.296875,
+          "width": 1263.59375
+        },
+        "scrollWidth": 657
+      },
+      {
+        "text": "Questions",
+        "font": 47.81,
+        "left": 43.703125,
+        "right": 432.890625,
+        "width": 389.1875,
+        "parent": {
+          "left": 43.703125,
+          "right": 432.890625,
+          "width": 389.1875
+        },
+        "scrollWidth": 389
+      },
+      {
+        "text": "Start with a conversation",
+        "font": 47.81,
+        "left": 43.703125,
+        "right": 627.359375,
+        "width": 583.65625,
+        "parent": {
+          "left": 43.703125,
+          "right": 627.359375,
+          "width": 583.65625
+        },
+        "scrollWidth": 584
+      }
+    ],
+    "h1": 62.836,
+    "accordion": [
+      20.49,
+      20.49,
+      20.49,
+      20.49
+    ]
+  },
+  {
+    "path": "/en/services/architectural-design",
+    "width": 1536,
+    "height": 864,
+    "docWidth": 1521,
+    "viewport": 1536,
+    "h2": [
+      {
+        "text": "Deliverables",
+        "font": 52,
+        "left": 48,
+        "right": 613.75,
+        "width": 565.75,
+        "parent": {
+          "left": 48,
+          "right": 613.75,
+          "width": 565.75
+        },
+        "scrollWidth": 566
+      },
+      {
+        "text": "How it works",
+        "font": 52,
+        "left": 48,
+        "right": 762.15625,
+        "width": 714.15625,
+        "parent": {
+          "left": 48,
+          "right": 1473,
+          "width": 1425
+        },
+        "scrollWidth": 714
+      },
+      {
+        "text": "Related projects",
+        "font": 52,
+        "left": 48,
+        "right": 762.15625,
+        "width": 714.15625,
+        "parent": {
+          "left": 48,
+          "right": 1473,
+          "width": 1425
+        },
+        "scrollWidth": 714
+      },
+      {
+        "text": "Questions",
+        "font": 52,
+        "left": 48,
+        "right": 491,
+        "width": 443,
+        "parent": {
+          "left": 48,
+          "right": 491,
+          "width": 443
+        },
+        "scrollWidth": 443
+      },
+      {
+        "text": "Start with a conversation",
+        "font": 52,
+        "left": 48,
+        "right": 682.8125,
+        "width": 634.8125,
+        "parent": {
+          "left": 48,
+          "right": 682.8125,
+          "width": 634.8125
+        },
+        "scrollWidth": 635
+      }
+    ],
+    "h1": 70.656,
+    "accordion": [
+      22,
+      22,
+      22,
+      22
+    ]
+  },
+  {
+    "path": "/en/services/architectural-design",
+    "width": 1920,
+    "height": 826,
+    "docWidth": 1905,
+    "viewport": 1920,
+    "h2": [
+      {
+        "text": "Deliverables",
+        "font": 52,
+        "left": 120.5,
+        "right": 785.828125,
+        "width": 665.328125,
+        "parent": {
+          "left": 120.5,
+          "right": 785.828125,
+          "width": 665.328125
+        },
+        "scrollWidth": 665
+      },
+      {
+        "text": "How it works",
+        "font": 52,
+        "left": 120.5,
+        "right": 834.65625,
+        "width": 714.15625,
+        "parent": {
+          "left": 120.5,
+          "right": 1784.5,
+          "width": 1664
+        },
+        "scrollWidth": 714
+      },
+      {
+        "text": "Related projects",
+        "font": 52,
+        "left": 120.5,
+        "right": 834.65625,
+        "width": 714.15625,
+        "parent": {
+          "left": 120.5,
+          "right": 1784.5,
+          "width": 1664
+        },
+        "scrollWidth": 714
+      },
+      {
+        "text": "Questions",
+        "font": 52,
+        "left": 120.5,
+        "right": 643.15625,
+        "width": 522.65625,
+        "parent": {
+          "left": 120.5,
+          "right": 643.15625,
+          "width": 522.65625
+        },
+        "scrollWidth": 523
+      },
+      {
+        "text": "Start with a conversation",
+        "font": 52,
+        "left": 120.5,
+        "right": 755.3125,
+        "width": 634.8125,
+        "parent": {
+          "left": 120.5,
+          "right": 755.3125,
+          "width": 634.8125
+        },
+        "scrollWidth": 635
+      }
+    ],
+    "h1": 76,
+    "accordion": [
+      22,
+      22,
+      22,
+      22
+    ]
+  },
+  {
+    "path": "/en/services/architectural-design",
+    "width": 1920,
+    "height": 1080,
+    "docWidth": 1905,
+    "viewport": 1920,
+    "h2": [
+      {
+        "text": "Deliverables",
+        "font": 52,
+        "left": 120.5,
+        "right": 785.828125,
+        "width": 665.328125,
+        "parent": {
+          "left": 120.5,
+          "right": 785.828125,
+          "width": 665.328125
+        },
+        "scrollWidth": 665
+      },
+      {
+        "text": "How it works",
+        "font": 92,
+        "left": 120.5,
+        "right": 1384.015625,
+        "width": 1263.515625,
+        "parent": {
+          "left": 120.5,
+          "right": 1784.5,
+          "width": 1664
+        },
+        "scrollWidth": 1264
+      },
+      {
+        "text": "Related projects",
+        "font": 92,
+        "left": 120.5,
+        "right": 1384.015625,
+        "width": 1263.515625,
+        "parent": {
+          "left": 120.5,
+          "right": 1784.5,
+          "width": 1664
+        },
+        "scrollWidth": 1264
+      },
+      {
+        "text": "Questions",
+        "font": 92,
+        "left": 120.5,
+        "right": 668.734375,
+        "width": 548.234375,
+        "parent": {
+          "left": 120.5,
+          "right": 643.15625,
+          "width": 522.65625
+        },
+        "scrollWidth": 548
+      },
+      {
+        "text": "Start with a conversation",
+        "font": 92,
+        "left": 120.5,
+        "right": 1243.625,
+        "width": 1123.125,
+        "parent": {
+          "left": 120.5,
+          "right": 1243.625,
+          "width": 1123.125
+        },
+        "scrollWidth": 1123
+      }
+    ],
+    "h1": 158.08,
+    "accordion": [
+      25.6,
+      25.6,
+      25.6,
+      25.6
+    ]
+  },
+  {
+    "path": "/en/services/architectural-design",
+    "width": 390,
+    "height": 844,
+    "docWidth": 390,
+    "viewport": 390,
+    "h2": [
+      {
+        "text": "Deliverables",
+        "font": 32,
+        "left": 16,
+        "right": 374,
+        "width": 358,
+        "parent": {
+          "left": 16,
+          "right": 374,
+          "width": 358
+        },
+        "scrollWidth": 358
+      },
+      {
+        "text": "How it works",
+        "font": 36,
+        "left": 16,
+        "right": 374,
+        "width": 358,
+        "parent": {
+          "left": 16,
+          "right": 374,
+          "width": 358
+        },
+        "scrollWidth": 358
+      },
+      {
+        "text": "Related projects",
+        "font": 36,
+        "left": 16,
+        "right": 374,
+        "width": 358,
+        "parent": {
+          "left": 16,
+          "right": 374,
+          "width": 358
+        },
+        "scrollWidth": 358
+      },
+      {
+        "text": "Questions",
+        "font": 36,
+        "left": 16,
+        "right": 374,
+        "width": 358,
+        "parent": {
+          "left": 16,
+          "right": 374,
+          "width": 358
+        },
+        "scrollWidth": 358
+      },
+      {
+        "text": "Start with a conversation",
+        "font": 36,
+        "left": 16,
+        "right": 374,
+        "width": 358,
+        "parent": {
+          "left": 16,
+          "right": 374,
+          "width": 358
+        },
+        "scrollWidth": 358
+      }
+    ],
+    "h1": 44,
+    "accordion": [
+      19.2,
+      19.2,
+      19.2,
+      19.2
+    ]
+  },
+  {
+    "path": "/ar/services/architectural-design",
+    "width": 1024,
+    "height": 600,
+    "docWidth": 1009,
+    "viewport": 1024,
+    "h2": [
+      {
+        "text": "المخرجات",
+        "font": 35.84,
+        "left": 611.125,
+        "right": 976.234375,
+        "width": 365.109375,
+        "parent": {
+          "left": 611.125,
+          "right": 976.234375,
+          "width": 365.109375
+        },
+        "scrollWidth": 365
+      },
+      {
+        "text": "مراحل العمل",
+        "font": 35.84,
+        "left": 522.71875,
+        "right": 976.234375,
+        "width": 453.515625,
+        "parent": {
+          "left": 32.765625,
+          "right": 976.234375,
+          "width": 943.46875
+        },
+        "scrollWidth": 454
+      },
+      {
+        "text": "مشاريع ذات صلة",
+        "font": 35.84,
+        "left": 522.71875,
+        "right": 976.234375,
+        "width": 453.515625,
+        "parent": {
+          "left": 32.765625,
+          "right": 976.234375,
+          "width": 943.46875
+        },
+        "scrollWidth": 454
+      },
+      {
+        "text": "أسئلة شائعة",
+        "font": 35.84,
+        "left": 693.75,
+        "right": 976.234375,
+        "width": 282.484375,
+        "parent": {
+          "left": 693.75,
+          "right": 976.234375,
+          "width": 282.484375
+        },
+        "scrollWidth": 282
+      },
+      {
+        "text": "ابدأ بحديث",
+        "font": 35.84,
+        "left": 633.859375,
+        "right": 976.234375,
+        "width": 342.375,
+        "parent": {
+          "left": 633.859375,
+          "right": 976.234375,
+          "width": 342.375
+        },
+        "scrollWidth": 342
+      }
+    ],
+    "h1": 47.104,
+    "accordion": [
+      18,
+      18,
+      18,
+      18
+    ]
+  },
+  {
+    "path": "/ar/services/architectural-design",
+    "width": 1366,
+    "height": 768,
+    "docWidth": 1351,
+    "viewport": 1366,
+    "h2": [
+      {
+        "text": "المخرجات",
+        "font": 47.81,
+        "left": 808.8125,
+        "right": 1307.296875,
+        "width": 498.484375,
+        "parent": {
+          "left": 808.8125,
+          "right": 1307.296875,
+          "width": 498.484375
+        },
+        "scrollWidth": 498
+      },
+      {
+        "text": "مراحل العمل",
+        "font": 47.81,
+        "left": 702.3125,
+        "right": 1307.296875,
+        "width": 604.984375,
+        "parent": {
+          "left": 43.703125,
+          "right": 1307.296875,
+          "width": 1263.59375
+        },
+        "scrollWidth": 605
+      },
+      {
+        "text": "مشاريع ذات صلة",
+        "font": 47.81,
+        "left": 702.3125,
+        "right": 1307.296875,
+        "width": 604.984375,
+        "parent": {
+          "left": 43.703125,
+          "right": 1307.296875,
+          "width": 1263.59375
+        },
+        "scrollWidth": 605
+      },
+      {
+        "text": "أسئلة شائعة",
+        "font": 47.81,
+        "left": 918.109375,
+        "right": 1307.296875,
+        "width": 389.1875,
+        "parent": {
+          "left": 918.109375,
+          "right": 1307.296875,
+          "width": 389.1875
+        },
+        "scrollWidth": 389
+      },
+      {
+        "text": "ابدأ بحديث",
+        "font": 47.81,
+        "left": 939.328125,
+        "right": 1307.296875,
+        "width": 367.96875,
+        "parent": {
+          "left": 939.328125,
+          "right": 1307.296875,
+          "width": 367.96875
+        },
+        "scrollWidth": 368
+      }
+    ],
+    "h1": 62.836,
+    "accordion": [
+      20.49,
+      20.49,
+      20.49,
+      20.49
+    ]
+  },
+  {
+    "path": "/ar/services/architectural-design",
+    "width": 1536,
+    "height": 864,
+    "docWidth": 1521,
+    "viewport": 1536,
+    "h2": [
+      {
+        "text": "المخرجات",
+        "font": 52,
+        "left": 907.25,
+        "right": 1473,
+        "width": 565.75,
+        "parent": {
+          "left": 907.25,
+          "right": 1473,
+          "width": 565.75
+        },
+        "scrollWidth": 566
+      },
+      {
+        "text": "مراحل العمل",
+        "font": 52,
+        "left": 815,
+        "right": 1473,
+        "width": 658,
+        "parent": {
+          "left": 48,
+          "right": 1473,
+          "width": 1425
+        },
+        "scrollWidth": 658
+      },
+      {
+        "text": "مشاريع ذات صلة",
+        "font": 52,
+        "left": 815,
+        "right": 1473,
+        "width": 658,
+        "parent": {
+          "left": 48,
+          "right": 1473,
+          "width": 1425
+        },
+        "scrollWidth": 658
+      },
+      {
+        "text": "أسئلة شائعة",
+        "font": 52,
+        "left": 1030,
+        "right": 1473,
+        "width": 443,
+        "parent": {
+          "left": 1030,
+          "right": 1473,
+          "width": 443
+        },
+        "scrollWidth": 443
+      },
+      {
+        "text": "ابدأ بحديث",
+        "font": 52,
+        "left": 1100.703125,
+        "right": 1473,
+        "width": 372.296875,
+        "parent": {
+          "left": 1100.703125,
+          "right": 1473,
+          "width": 372.296875
+        },
+        "scrollWidth": 372
+      }
+    ],
+    "h1": 70.656,
+    "accordion": [
+      22,
+      22,
+      22,
+      22
+    ]
+  },
+  {
+    "path": "/ar/services/architectural-design",
+    "width": 1920,
+    "height": 826,
+    "docWidth": 1905,
+    "viewport": 1920,
+    "h2": [
+      {
+        "text": "المخرجات",
+        "font": 52,
+        "left": 1126.5,
+        "right": 1784.5,
+        "width": 658,
+        "parent": {
+          "left": 1119.171875,
+          "right": 1784.5,
+          "width": 665.328125
+        },
+        "scrollWidth": 658
+      },
+      {
+        "text": "مراحل العمل",
+        "font": 52,
+        "left": 1126.5,
+        "right": 1784.5,
+        "width": 658,
+        "parent": {
+          "left": 120.5,
+          "right": 1784.5,
+          "width": 1664
+        },
+        "scrollWidth": 658
+      },
+      {
+        "text": "مشاريع ذات صلة",
+        "font": 52,
+        "left": 1126.5,
+        "right": 1784.5,
+        "width": 658,
+        "parent": {
+          "left": 120.5,
+          "right": 1784.5,
+          "width": 1664
+        },
+        "scrollWidth": 658
+      },
+      {
+        "text": "أسئلة شائعة",
+        "font": 52,
+        "left": 1261.84375,
+        "right": 1784.5,
+        "width": 522.65625,
+        "parent": {
+          "left": 1261.84375,
+          "right": 1784.5,
+          "width": 522.65625
+        },
+        "scrollWidth": 523
+      },
+      {
+        "text": "ابدأ بحديث",
+        "font": 52,
+        "left": 1412.203125,
+        "right": 1784.5,
+        "width": 372.296875,
+        "parent": {
+          "left": 1412.203125,
+          "right": 1784.5,
+          "width": 372.296875
+        },
+        "scrollWidth": 372
+      }
+    ],
+    "h1": 76,
+    "accordion": [
+      22,
+      22,
+      22,
+      22
+    ]
+  },
+  {
+    "path": "/ar/services/architectural-design",
+    "width": 1920,
+    "height": 1080,
+    "docWidth": 1905,
+    "viewport": 1920,
+    "h2": [
+      {
+        "text": "المخرجات",
+        "font": 52,
+        "left": 1126.5,
+        "right": 1784.5,
+        "width": 658,
+        "parent": {
+          "left": 1119.171875,
+          "right": 1784.5,
+          "width": 665.328125
+        },
+        "scrollWidth": 658
+      },
+      {
+        "text": "مراحل العمل",
+        "font": 92,
+        "left": 620.34375,
+        "right": 1784.5,
+        "width": 1164.15625,
+        "parent": {
+          "left": 120.5,
+          "right": 1784.5,
+          "width": 1664
+        },
+        "scrollWidth": 1164
+      },
+      {
+        "text": "مشاريع ذات صلة",
+        "font": 92,
+        "left": 620.34375,
+        "right": 1784.5,
+        "width": 1164.15625,
+        "parent": {
+          "left": 120.5,
+          "right": 1784.5,
+          "width": 1664
+        },
+        "scrollWidth": 1164
+      },
+      {
+        "text": "أسئلة شائعة",
+        "font": 92,
+        "left": 1261.84375,
+        "right": 1784.5,
+        "width": 522.65625,
+        "parent": {
+          "left": 1261.84375,
+          "right": 1784.5,
+          "width": 522.65625
+        },
+        "scrollWidth": 523
+      },
+      {
+        "text": "ابدأ بحديث",
+        "font": 92,
+        "left": 1323.671875,
+        "right": 1784.5,
+        "width": 460.828125,
+        "parent": {
+          "left": 1323.671875,
+          "right": 1784.5,
+          "width": 460.828125
+        },
+        "scrollWidth": 461
+      }
+    ],
+    "h1": 158.08,
+    "accordion": [
+      25.6,
+      25.6,
+      25.6,
+      25.6
+    ]
+  },
+  {
+    "path": "/ar/services/architectural-design",
+    "width": 390,
+    "height": 844,
+    "docWidth": 390,
+    "viewport": 390,
+    "h2": [
+      {
+        "text": "المخرجات",
+        "font": 32,
+        "left": 16,
+        "right": 374,
+        "width": 358,
+        "parent": {
+          "left": 16,
+          "right": 374,
+          "width": 358
+        },
+        "scrollWidth": 358
+      },
+      {
+        "text": "مراحل العمل",
+        "font": 36,
+        "left": 16,
+        "right": 374,
+        "width": 358,
+        "parent": {
+          "left": 16,
+          "right": 374,
+          "width": 358
+        },
+        "scrollWidth": 358
+      },
+      {
+        "text": "مشاريع ذات صلة",
+        "font": 36,
+        "left": 16,
+        "right": 374,
+        "width": 358,
+        "parent": {
+          "left": 16,
+          "right": 374,
+          "width": 358
+        },
+        "scrollWidth": 358
+      },
+      {
+        "text": "أسئلة شائعة",
+        "font": 36,
+        "left": 16,
+        "right": 374,
+        "width": 358,
+        "parent": {
+          "left": 16,
+          "right": 374,
+          "width": 358
+        },
+        "scrollWidth": 358
+      },
+      {
+        "text": "ابدأ بحديث",
+        "font": 36,
+        "left": 16,
+        "right": 374,
+        "width": 358,
+        "parent": {
+          "left": 16,
+          "right": 374,
+          "width": 358
+        },
+        "scrollWidth": 358
+      }
+    ],
+    "h1": 44,
+    "accordion": [
+      19.2,
+      19.2,
+      19.2,
+      19.2
+    ]
+  },
+  {
+    "path": "/en/about",
+    "width": 1024,
+    "height": 600,
+    "docWidth": 1009,
+    "viewport": 1024,
+    "h2": [
+      {
+        "text": "The story so far",
+        "font": 35.84,
+        "left": 32.765625,
+        "right": 524.984375,
+        "width": 492.21875,
+        "parent": {
+          "left": 32.765625,
+          "right": 976.234375,
+          "width": 943.46875
+        },
+        "scrollWidth": 492
+      },
+      {
+        "text": "How we work",
+        "font": 35.84,
+        "left": 32.765625,
+        "right": 524.984375,
+        "width": 492.21875,
+        "parent": {
+          "left": 32.765625,
+          "right": 976.234375,
+          "width": 943.46875
+        },
+        "scrollWidth": 492
+      },
+      {
+        "text": "The office",
+        "font": 35.84,
+        "left": 32.765625,
+        "right": 524.984375,
+        "width": 492.21875,
+        "parent": {
+          "left": 32.765625,
+          "right": 976.234375,
+          "width": 943.46875
+        },
+        "scrollWidth": 492
+      },
+      {
+        "text": "Licences and registrations",
+        "font": 35.84,
+        "left": 32.765625,
+        "right": 397.875,
+        "width": 365.109375,
+        "parent": {
+          "left": 32.765625,
+          "right": 397.875,
+          "width": 365.109375
+        },
+        "scrollWidth": 365
+      },
+      {
+        "text": "Julphar Tower, 10th floor",
+        "font": 35.84,
+        "left": 537.265625,
+        "right": 920.09375,
+        "width": 382.828125,
+        "parent": {
+          "left": 504.5,
+          "right": 1009,
+          "width": 504.5
+        },
+        "scrollWidth": 383
+      },
+      {
+        "text": "Start with a conversation",
+        "font": 35.84,
+        "left": 32.765625,
+        "right": 470.296875,
+        "width": 437.53125,
+        "parent": {
+          "left": 32.765625,
+          "right": 554.109375,
+          "width": 521.34375
+        },
+        "scrollWidth": 438
+      }
+    ],
+    "h1": 47.104,
+    "accordion": []
+  },
+  {
+    "path": "/en/about",
+    "width": 1366,
+    "height": 768,
+    "docWidth": 1351,
+    "viewport": 1366,
+    "h2": [
+      {
+        "text": "The story so far",
+        "font": 47.81,
+        "left": 43.703125,
+        "right": 700.3125,
+        "width": 656.609375,
+        "parent": {
+          "left": 43.703125,
+          "right": 1307.296875,
+          "width": 1263.59375
+        },
+        "scrollWidth": 657
+      },
+      {
+        "text": "How we work",
+        "font": 47.81,
+        "left": 43.703125,
+        "right": 700.3125,
+        "width": 656.609375,
+        "parent": {
+          "left": 43.703125,
+          "right": 1307.296875,
+          "width": 1263.59375
+        },
+        "scrollWidth": 657
+      },
+      {
+        "text": "The office",
+        "font": 47.81,
+        "left": 43.703125,
+        "right": 700.3125,
+        "width": 656.609375,
+        "parent": {
+          "left": 43.703125,
+          "right": 1307.296875,
+          "width": 1263.59375
+        },
+        "scrollWidth": 657
+      },
+      {
+        "text": "Licences and registrations",
+        "font": 47.81,
+        "left": 43.703125,
+        "right": 542.1875,
+        "width": 498.484375,
+        "parent": {
+          "left": 43.703125,
+          "right": 542.1875,
+          "width": 498.484375
+        },
+        "scrollWidth": 498
+      },
+      {
+        "text": "Julphar Tower, 10th floor",
+        "font": 47.81,
+        "left": 719.203125,
+        "right": 1229.90625,
+        "width": 510.703125,
+        "parent": {
+          "left": 675.5,
+          "right": 1351,
+          "width": 675.5
+        },
+        "scrollWidth": 511
+      },
+      {
+        "text": "Start with a conversation",
+        "font": 47.81,
+        "left": 43.703125,
+        "right": 627.359375,
+        "width": 583.65625,
+        "parent": {
+          "left": 43.703125,
+          "right": 627.359375,
+          "width": 583.65625
+        },
+        "scrollWidth": 584
+      }
+    ],
+    "h1": 62.836,
+    "accordion": []
+  },
+  {
+    "path": "/en/about",
+    "width": 1536,
+    "height": 864,
+    "docWidth": 1521,
+    "viewport": 1536,
+    "h2": [
+      {
+        "text": "The story so far",
+        "font": 52,
+        "left": 48,
+        "right": 762.15625,
+        "width": 714.15625,
+        "parent": {
+          "left": 48,
+          "right": 1473,
+          "width": 1425
+        },
+        "scrollWidth": 714
+      },
+      {
+        "text": "How we work",
+        "font": 52,
+        "left": 48,
+        "right": 762.15625,
+        "width": 714.15625,
+        "parent": {
+          "left": 48,
+          "right": 1473,
+          "width": 1425
+        },
+        "scrollWidth": 714
+      },
+      {
+        "text": "The office",
+        "font": 52,
+        "left": 48,
+        "right": 762.15625,
+        "width": 714.15625,
+        "parent": {
+          "left": 48,
+          "right": 1473,
+          "width": 1425
+        },
+        "scrollWidth": 714
+      },
+      {
+        "text": "Licences and registrations",
+        "font": 52,
+        "left": 48,
+        "right": 613.75,
+        "width": 565.75,
+        "parent": {
+          "left": 48,
+          "right": 613.75,
+          "width": 565.75
+        },
+        "scrollWidth": 566
+      },
+      {
+        "text": "Julphar Tower, 10th floor",
+        "font": 52,
+        "left": 808.5,
+        "right": 1363.953125,
+        "width": 555.453125,
+        "parent": {
+          "left": 760.5,
+          "right": 1521,
+          "width": 760.5
+        },
+        "scrollWidth": 555
+      },
+      {
+        "text": "Start with a conversation",
+        "font": 52,
+        "left": 48,
+        "right": 682.8125,
+        "width": 634.8125,
+        "parent": {
+          "left": 48,
+          "right": 682.8125,
+          "width": 634.8125
+        },
+        "scrollWidth": 635
+      }
+    ],
+    "h1": 70.656,
+    "accordion": []
+  },
+  {
+    "path": "/en/about",
+    "width": 1920,
+    "height": 826,
+    "docWidth": 1905,
+    "viewport": 1920,
+    "h2": [
+      {
+        "text": "The story so far",
+        "font": 52,
+        "left": 120.5,
+        "right": 834.65625,
+        "width": 714.15625,
+        "parent": {
+          "left": 120.5,
+          "right": 1784.5,
+          "width": 1664
+        },
+        "scrollWidth": 714
+      },
+      {
+        "text": "How we work",
+        "font": 52,
+        "left": 120.5,
+        "right": 834.65625,
+        "width": 714.15625,
+        "parent": {
+          "left": 120.5,
+          "right": 1784.5,
+          "width": 1664
+        },
+        "scrollWidth": 714
+      },
+      {
+        "text": "The office",
+        "font": 52,
+        "left": 120.5,
+        "right": 834.65625,
+        "width": 714.15625,
+        "parent": {
+          "left": 120.5,
+          "right": 1784.5,
+          "width": 1664
+        },
+        "scrollWidth": 714
+      },
+      {
+        "text": "Licences and registrations",
+        "font": 52,
+        "left": 120.5,
+        "right": 785.828125,
+        "width": 665.328125,
+        "parent": {
+          "left": 120.5,
+          "right": 785.828125,
+          "width": 665.328125
+        },
+        "scrollWidth": 665
+      },
+      {
+        "text": "Julphar Tower, 10th floor",
+        "font": 52,
+        "left": 1000.5,
+        "right": 1555.953125,
+        "width": 555.453125,
+        "parent": {
+          "left": 952.5,
+          "right": 1905,
+          "width": 952.5
+        },
+        "scrollWidth": 555
+      },
+      {
+        "text": "Start with a conversation",
+        "font": 52,
+        "left": 120.5,
+        "right": 755.3125,
+        "width": 634.8125,
+        "parent": {
+          "left": 120.5,
+          "right": 755.3125,
+          "width": 634.8125
+        },
+        "scrollWidth": 635
+      }
+    ],
+    "h1": 76,
+    "accordion": []
+  },
+  {
+    "path": "/en/about",
+    "width": 1920,
+    "height": 1080,
+    "docWidth": 1905,
+    "viewport": 1920,
+    "h2": [
+      {
+        "text": "The story so far",
+        "font": 92,
+        "left": 120.5,
+        "right": 1384.015625,
+        "width": 1263.515625,
+        "parent": {
+          "left": 120.5,
+          "right": 1784.5,
+          "width": 1664
+        },
+        "scrollWidth": 1264
+      },
+      {
+        "text": "How we work",
+        "font": 92,
+        "left": 120.5,
+        "right": 1384.015625,
+        "width": 1263.515625,
+        "parent": {
+          "left": 120.5,
+          "right": 1784.5,
+          "width": 1664
+        },
+        "scrollWidth": 1264
+      },
+      {
+        "text": "The office",
+        "font": 92,
+        "left": 120.5,
+        "right": 1384.015625,
+        "width": 1263.515625,
+        "parent": {
+          "left": 120.5,
+          "right": 1784.5,
+          "width": 1664
+        },
+        "scrollWidth": 1264
+      },
+      {
+        "text": "Licences and registrations",
+        "font": 92,
+        "left": 120.5,
+        "right": 796.25,
+        "width": 675.75,
+        "parent": {
+          "left": 120.5,
+          "right": 785.828125,
+          "width": 665.328125
+        },
+        "scrollWidth": 676
+      },
+      {
+        "text": "Julphar Tower, 10th floor",
+        "font": 92,
+        "left": 1000.5,
+        "right": 1857,
+        "width": 856.5,
+        "parent": {
+          "left": 952.5,
+          "right": 1905,
+          "width": 952.5
+        },
+        "scrollWidth": 857
+      },
+      {
+        "text": "Start with a conversation",
+        "font": 92,
+        "left": 120.5,
+        "right": 1243.625,
+        "width": 1123.125,
+        "parent": {
+          "left": 120.5,
+          "right": 1243.625,
+          "width": 1123.125
+        },
+        "scrollWidth": 1123
+      }
+    ],
+    "h1": 158.08,
+    "accordion": []
+  },
+  {
+    "path": "/en/about",
+    "width": 390,
+    "height": 844,
+    "docWidth": 390,
+    "viewport": 390,
+    "h2": [
+      {
+        "text": "The story so far",
+        "font": 36,
+        "left": 16,
+        "right": 374,
+        "width": 358,
+        "parent": {
+          "left": 16,
+          "right": 374,
+          "width": 358
+        },
+        "scrollWidth": 358
+      },
+      {
+        "text": "How we work",
+        "font": 36,
+        "left": 16,
+        "right": 374,
+        "width": 358,
+        "parent": {
+          "left": 16,
+          "right": 374,
+          "width": 358
+        },
+        "scrollWidth": 358
+      },
+      {
+        "text": "The office",
+        "font": 36,
+        "left": 16,
+        "right": 374,
+        "width": 358,
+        "parent": {
+          "left": 16,
+          "right": 374,
+          "width": 358
+        },
+        "scrollWidth": 358
+      },
+      {
+        "text": "Licences and registrations",
+        "font": 36,
+        "left": 16,
+        "right": 374,
+        "width": 358,
+        "parent": {
+          "left": 16,
+          "right": 374,
+          "width": 358
+        },
+        "scrollWidth": 358
+      },
+      {
+        "text": "Julphar Tower, 10th floor",
+        "font": 36,
+        "left": 16,
+        "right": 374,
+        "width": 358,
+        "parent": {
+          "left": 0,
+          "right": 390,
+          "width": 390
+        },
+        "scrollWidth": 358
+      },
+      {
+        "text": "Start with a conversation",
+        "font": 36,
+        "left": 16,
+        "right": 374,
+        "width": 358,
+        "parent": {
+          "left": 16,
+          "right": 374,
+          "width": 358
+        },
+        "scrollWidth": 358
+      }
+    ],
+    "h1": 44,
+    "accordion": []
+  },
+  {
+    "path": "/en/contact",
+    "width": 1024,
+    "height": 600,
+    "docWidth": 1009,
+    "viewport": 1024,
+    "h2": [
+      {
+        "text": "Send an enquiry",
+        "font": 35.84,
+        "left": 32.765625,
+        "right": 472.5,
+        "width": 439.734375,
+        "parent": {
+          "left": 32.765625,
+          "right": 472.5,
+          "width": 439.734375
+        },
+        "scrollWidth": 440
+      }
+    ],
+    "h1": 47.104,
+    "accordion": []
+  },
+  {
+    "path": "/en/contact",
+    "width": 1366,
+    "height": 768,
+    "docWidth": 1351,
+    "viewport": 1366,
+    "h2": [
+      {
+        "text": "Send an enquiry",
+        "font": 47.81,
+        "left": 43.703125,
+        "right": 643.5,
+        "width": 599.796875,
+        "parent": {
+          "left": 43.703125,
+          "right": 643.5,
+          "width": 599.796875
+        },
+        "scrollWidth": 600
+      }
+    ],
+    "h1": 62.836,
+    "accordion": []
+  },
+  {
+    "path": "/en/contact",
+    "width": 1536,
+    "height": 864,
+    "docWidth": 1521,
+    "viewport": 1536,
+    "h2": [
+      {
+        "text": "Send an enquiry",
+        "font": 52,
+        "left": 48,
+        "right": 728.5,
+        "width": 680.5,
+        "parent": {
+          "left": 48,
+          "right": 728.5,
+          "width": 680.5
+        },
+        "scrollWidth": 681
+      }
+    ],
+    "h1": 70.656,
+    "accordion": []
+  },
+  {
+    "path": "/en/contact",
+    "width": 1920,
+    "height": 826,
+    "docWidth": 1905,
+    "viewport": 1920,
+    "h2": [
+      {
+        "text": "Send an enquiry",
+        "font": 52,
+        "left": 120.5,
+        "right": 920.5,
+        "width": 800,
+        "parent": {
+          "left": 120.5,
+          "right": 920.5,
+          "width": 800
+        },
+        "scrollWidth": 800
+      }
+    ],
+    "h1": 76,
+    "accordion": []
+  },
+  {
+    "path": "/en/contact",
+    "width": 1920,
+    "height": 1080,
+    "docWidth": 1905,
+    "viewport": 1920,
+    "h2": [
+      {
+        "text": "Send an enquiry",
+        "font": 92,
+        "left": 120.5,
+        "right": 920.5,
+        "width": 800,
+        "parent": {
+          "left": 120.5,
+          "right": 920.5,
+          "width": 800
+        },
+        "scrollWidth": 800
+      }
+    ],
+    "h1": 158.08,
+    "accordion": []
+  },
+  {
+    "path": "/en/contact",
+    "width": 390,
+    "height": 844,
+    "docWidth": 390,
+    "viewport": 390,
+    "h2": [
+      {
+        "text": "Send an enquiry",
+        "font": 36,
+        "left": 16,
+        "right": 374,
+        "width": 358,
+        "parent": {
+          "left": 16,
+          "right": 374,
+          "width": 358
+        },
+        "scrollWidth": 358
+      }
+    ],
+    "h1": 44,
+    "accordion": []
+  },
+  {
+    "path": "/en",
+    "width": 1024,
+    "height": 600,
+    "docWidth": 1009,
+    "viewport": 1024,
+    "h2": [
+      {
+        "text": "Every layer, one office",
+        "font": 35.84,
+        "left": 32.765625,
+        "right": 409.203125,
+        "width": 376.4375,
+        "parent": {
+          "left": 32.765625,
+          "right": 409.203125,
+          "width": 376.4375
+        },
+        "scrollWidth": 376
+      },
+      {
+        "text": "Six disciplines",
+        "font": 35.84,
+        "left": 32.765625,
+        "right": 524.984375,
+        "width": 492.21875,
+        "parent": {
+          "left": 32.765625,
+          "right": 554.109375,
+          "width": 521.34375
+        },
+        "scrollWidth": 492
+      },
+      {
+        "text": "Selected work",
+        "font": 35.84,
+        "left": 32.765625,
+        "right": 333.5625,
+        "width": 300.796875,
+        "parent": {
+          "left": 32.765625,
+          "right": 333.5625,
+          "width": 300.796875
+        },
+        "scrollWidth": 301
+      },
+      {
+        "text": "From brief to handover",
+        "font": 35.84,
+        "left": 32.765625,
+        "right": 524.984375,
+        "width": 492.21875,
+        "parent": {
+          "left": 32.765625,
+          "right": 976.234375,
+          "width": 943.46875
+        },
+        "scrollWidth": 492
+      },
+      {
+        "text": "Sectors",
+        "font": 12,
+        "left": 0,
+        "right": 1009,
+        "width": 1009,
+        "parent": {
+          "left": 0,
+          "right": 1009,
+          "width": 1009
+        },
+        "scrollWidth": 1009
+      },
+      {
+        "text": "Why DECC",
+        "font": 35.84,
+        "left": 32.765625,
+        "right": 472.5,
+        "width": 439.734375,
+        "parent": {
+          "left": 32.765625,
+          "right": 472.5,
+          "width": 439.734375
+        },
+        "scrollWidth": 440
+      },
+      {
+        "text": "Planning a villa or building in Ras Al Khaimah?",
+        "font": 35.84,
+        "left": 32.765625,
+        "right": 393.203125,
+        "width": 360.4375,
+        "parent": {
+          "left": 32.765625,
+          "right": 393.203125,
+          "width": 360.4375
+        },
+        "scrollWidth": 360
+      }
+    ],
+    "h1": 40.96,
+    "accordion": []
+  },
+  {
+    "path": "/en",
+    "width": 1366,
+    "height": 768,
+    "docWidth": 1351,
+    "viewport": 1366,
+    "h2": [
+      {
+        "text": "Every layer, one office",
+        "font": 47.81,
+        "left": 43.703125,
+        "right": 553.53125,
+        "width": 509.828125,
+        "parent": {
+          "left": 43.703125,
+          "right": 553.53125,
+          "width": 509.828125
+        },
+        "scrollWidth": 510
+      },
+      {
+        "text": "Six disciplines",
+        "font": 47.81,
+        "left": 43.703125,
+        "right": 604.015625,
+        "width": 560.3125,
+        "parent": {
+          "left": 43.703125,
+          "right": 604.015625,
+          "width": 560.3125
+        },
+        "scrollWidth": 560
+      },
+      {
+        "text": "Selected work",
+        "font": 47.81,
+        "left": 43.703125,
+        "right": 444.953125,
+        "width": 401.25,
+        "parent": {
+          "left": 43.703125,
+          "right": 444.953125,
+          "width": 401.25
+        },
+        "scrollWidth": 401
+      },
+      {
+        "text": "From brief to handover",
+        "font": 47.81,
+        "left": 43.703125,
+        "right": 700.3125,
+        "width": 656.609375,
+        "parent": {
+          "left": 43.703125,
+          "right": 1307.296875,
+          "width": 1263.59375
+        },
+        "scrollWidth": 657
+      },
+      {
+        "text": "Sectors",
+        "font": 12,
+        "left": 0,
+        "right": 1351,
+        "width": 1351,
+        "parent": {
+          "left": 0,
+          "right": 1351,
+          "width": 1351
+        },
+        "scrollWidth": 1351
+      },
+      {
+        "text": "Why DECC",
+        "font": 47.81,
+        "left": 43.703125,
+        "right": 643.5,
+        "width": 599.796875,
+        "parent": {
+          "left": 43.703125,
+          "right": 643.5,
+          "width": 599.796875
+        },
+        "scrollWidth": 600
+      },
+      {
+        "text": "Planning a villa or building in Ras Al Khaimah?",
+        "font": 47.81,
+        "left": 43.703125,
+        "right": 537.53125,
+        "width": 493.828125,
+        "parent": {
+          "left": 43.703125,
+          "right": 537.53125,
+          "width": 493.828125
+        },
+        "scrollWidth": 494
+      }
+    ],
+    "h1": 68.3,
+    "accordion": []
+  },
+  {
+    "path": "/en",
+    "width": 1536,
+    "height": 864,
+    "docWidth": 1521,
+    "viewport": 1536,
+    "h2": [
+      {
+        "text": "Every layer, one office",
+        "font": 52,
+        "left": 48,
+        "right": 603.453125,
+        "width": 555.453125,
+        "parent": {
+          "left": 48,
+          "right": 625.078125,
+          "width": 577.078125
+        },
+        "scrollWidth": 555
+      },
+      {
+        "text": "Six disciplines",
+        "font": 52,
+        "left": 48,
+        "right": 614.890625,
+        "width": 566.890625,
+        "parent": {
+          "left": 48,
+          "right": 614.890625,
+          "width": 566.890625
+        },
+        "scrollWidth": 567
+      },
+      {
+        "text": "Selected work",
+        "font": 52,
+        "left": 48,
+        "right": 484.421875,
+        "width": 436.421875,
+        "parent": {
+          "left": 48,
+          "right": 484.421875,
+          "width": 436.421875
+        },
+        "scrollWidth": 436
+      },
+      {
+        "text": "From brief to handover",
+        "font": 52,
+        "left": 48,
+        "right": 762.15625,
+        "width": 714.15625,
+        "parent": {
+          "left": 48,
+          "right": 1473,
+          "width": 1425
+        },
+        "scrollWidth": 714
+      },
+      {
+        "text": "Sectors",
+        "font": 12,
+        "left": 0,
+        "right": 1521,
+        "width": 1521,
+        "parent": {
+          "left": 0,
+          "right": 1521,
+          "width": 1521
+        },
+        "scrollWidth": 1521
+      },
+      {
+        "text": "Why DECC",
+        "font": 52,
+        "left": 48,
+        "right": 728.5,
+        "width": 680.5,
+        "parent": {
+          "left": 48,
+          "right": 728.5,
+          "width": 680.5
+        },
+        "scrollWidth": 681
+      },
+      {
+        "text": "Planning a villa or building in Ras Al Khaimah?",
+        "font": 52,
+        "left": 48,
+        "right": 609.078125,
+        "width": 561.078125,
+        "parent": {
+          "left": 48,
+          "right": 609.078125,
+          "width": 561.078125
+        },
+        "scrollWidth": 561
+      }
+    ],
+    "h1": 76.8,
+    "accordion": []
+  },
+  {
+    "path": "/en",
+    "width": 1920,
+    "height": 826,
+    "docWidth": 1905,
+    "viewport": 1920,
+    "h2": [
+      {
+        "text": "Every layer, one office",
+        "font": 52,
+        "left": 120.5,
+        "right": 675.953125,
+        "width": 555.453125,
+        "parent": {
+          "left": 120.5,
+          "right": 797.15625,
+          "width": 676.65625
+        },
+        "scrollWidth": 555
+      },
+      {
+        "text": "Six disciplines",
+        "font": 52,
+        "left": 120.5,
+        "right": 687.390625,
+        "width": 566.890625,
+        "parent": {
+          "left": 120.5,
+          "right": 687.390625,
+          "width": 566.890625
+        },
+        "scrollWidth": 567
+      },
+      {
+        "text": "Selected work",
+        "font": 52,
+        "left": 120.5,
+        "right": 556.921875,
+        "width": 436.421875,
+        "parent": {
+          "left": 120.5,
+          "right": 556.921875,
+          "width": 436.421875
+        },
+        "scrollWidth": 436
+      },
+      {
+        "text": "From brief to handover",
+        "font": 52,
+        "left": 120.5,
+        "right": 834.65625,
+        "width": 714.15625,
+        "parent": {
+          "left": 120.5,
+          "right": 1784.5,
+          "width": 1664
+        },
+        "scrollWidth": 714
+      },
+      {
+        "text": "Sectors",
+        "font": 12,
+        "left": 72.5,
+        "right": 1832.5,
+        "width": 1760,
+        "parent": {
+          "left": 0,
+          "right": 1905,
+          "width": 1905
+        },
+        "scrollWidth": 1760
+      },
+      {
+        "text": "Why DECC",
+        "font": 52,
+        "left": 120.5,
+        "right": 834.65625,
+        "width": 714.15625,
+        "parent": {
+          "left": 120.5,
+          "right": 920.5,
+          "width": 800
+        },
+        "scrollWidth": 714
+      },
+      {
+        "text": "Planning a villa or building in Ras Al Khaimah?",
+        "font": 52,
+        "left": 120.5,
+        "right": 755.3125,
+        "width": 634.8125,
+        "parent": {
+          "left": 120.5,
+          "right": 781.15625,
+          "width": 660.65625
+        },
+        "scrollWidth": 635
+      }
+    ],
+    "h1": 84,
+    "accordion": []
+  },
+  {
+    "path": "/en",
+    "width": 1920,
+    "height": 1080,
+    "docWidth": 1905,
+    "viewport": 1920,
+    "h2": [
+      {
+        "text": "Every layer, one office",
+        "font": 60,
+        "left": 120.5,
+        "right": 761.40625,
+        "width": 640.90625,
+        "parent": {
+          "left": 120.5,
+          "right": 797.15625,
+          "width": 676.65625
+        },
+        "scrollWidth": 641
+      },
+      {
+        "text": "Six disciplines",
+        "font": 92,
+        "left": 120.5,
+        "right": 876.109375,
+        "width": 755.609375,
+        "parent": {
+          "left": 120.5,
+          "right": 876.109375,
+          "width": 755.609375
+        },
+        "scrollWidth": 756
+      },
+      {
+        "text": "Selected work",
+        "font": 92,
+        "left": 120.5,
+        "right": 892.625,
+        "width": 772.125,
+        "parent": {
+          "left": 120.5,
+          "right": 892.625,
+          "width": 772.125
+        },
+        "scrollWidth": 772
+      },
+      {
+        "text": "From brief to handover",
+        "font": 92,
+        "left": 120.5,
+        "right": 1384.015625,
+        "width": 1263.515625,
+        "parent": {
+          "left": 120.5,
+          "right": 1784.5,
+          "width": 1664
+        },
+        "scrollWidth": 1264
+      },
+      {
+        "text": "Sectors",
+        "font": 12,
+        "left": 72.5,
+        "right": 1832.5,
+        "width": 1760,
+        "parent": {
+          "left": 0,
+          "right": 1905,
+          "width": 1905
+        },
+        "scrollWidth": 1760
+      },
+      {
+        "text": "Why DECC",
+        "font": 92,
+        "left": 120.5,
+        "right": 920.5,
+        "width": 800,
+        "parent": {
+          "left": 120.5,
+          "right": 920.5,
+          "width": 800
+        },
+        "scrollWidth": 800
+      },
+      {
+        "text": "Planning a villa or building in Ras Al Khaimah?",
+        "font": 92,
+        "left": 120.5,
+        "right": 781.15625,
+        "width": 660.65625,
+        "parent": {
+          "left": 120.5,
+          "right": 781.15625,
+          "width": 660.65625
+        },
+        "scrollWidth": 661
+      }
+    ],
+    "h1": 84,
+    "accordion": []
+  },
+  {
+    "path": "/en",
+    "width": 390,
+    "height": 844,
+    "docWidth": 390,
+    "viewport": 390,
+    "h2": [
+      {
+        "text": "Every layer, one office",
+        "font": 32,
+        "left": 16,
+        "right": 357.8125,
+        "width": 341.8125,
+        "parent": {
+          "left": 16,
+          "right": 374,
+          "width": 358
+        },
+        "scrollWidth": 342
+      },
+      {
+        "text": "Six disciplines",
+        "font": 36,
+        "left": 16,
+        "right": 374,
+        "width": 358,
+        "parent": {
+          "left": 16,
+          "right": 374,
+          "width": 358
+        },
+        "scrollWidth": 358
+      },
+      {
+        "text": "Selected work",
+        "font": 36,
+        "left": 16,
+        "right": 253.25,
+        "width": 237.25,
+        "parent": {
+          "left": 16,
+          "right": 253.25,
+          "width": 237.25
+        },
+        "scrollWidth": 237
+      },
+      {
+        "text": "From brief to handover",
+        "font": 36,
+        "left": 16,
+        "right": 374,
+        "width": 358,
+        "parent": {
+          "left": 16,
+          "right": 374,
+          "width": 358
+        },
+        "scrollWidth": 358
+      },
+      {
+        "text": "Sectors",
+        "font": 12,
+        "left": 0,
+        "right": 390,
+        "width": 390,
+        "parent": {
+          "left": 0,
+          "right": 390,
+          "width": 390
+        },
+        "scrollWidth": 390
+      },
+      {
+        "text": "Why DECC",
+        "font": 36,
+        "left": 16,
+        "right": 374,
+        "width": 358,
+        "parent": {
+          "left": 16,
+          "right": 374,
+          "width": 358
+        },
+        "scrollWidth": 358
+      },
+      {
+        "text": "Planning a villa or building in Ras Al Khaimah?",
+        "font": 36,
+        "left": 16,
+        "right": 374,
+        "width": 358,
+        "parent": {
+          "left": 16,
+          "right": 374,
+          "width": 358
+        },
+        "scrollWidth": 358
+      }
+    ],
+    "h1": 36,
+    "accordion": []
+  }
+]

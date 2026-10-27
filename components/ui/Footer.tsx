@@ -1,24 +1,19 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { useLocale, useTranslations } from "next-intl";
+import { useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import { company } from "@/lib/content";
-import { sheetFor } from "@/lib/sheets";
 import { gsap, ScrollTrigger, prefersReducedMotion } from "@/lib/gsap";
 
 /**
- * The footer is an engineering title block: a ruled grid of cells
- * (PROJECT · SHEET · REV · DRAWN BY · DATE · SCALE), contact details, and a giant
- * outlined "DECC" whose stroke draws in when it enters the screen.
+ * Contact details, page links, and a giant outlined "DECC" whose stroke draws
+ * in when it enters the screen.
  */
 export function Footer() {
   const t = useTranslations();
-  const locale = useLocale();
   const pathname = usePathname();
-  const sheet = sheetFor(pathname).code;
   const word = useRef<SVGSVGElement>(null);
-  const date = new Date().toLocaleDateString(locale === "ar" ? "ar-AE" : "en-GB", { year: "numeric", month: "2-digit", day: "2-digit", numberingSystem: "latn" });
 
   useEffect(() => {
     const svg = word.current;
@@ -34,15 +29,6 @@ export function Footer() {
     return () => st.kill();
   }, [pathname]);
 
-  const cells = [
-    { k: t("common.project"), v: t("footer.projectValue") },
-    { k: t("common.sheet"), v: sheet, ltr: true },
-    { k: t("common.rev"), v: t("footer.revValue"), ltr: true },
-    { k: t("common.drawnBy"), v: t("footer.drawnByValue") },
-    { k: t("common.date"), v: date, ltr: true },
-    { k: t("common.scale"), v: t("footer.scaleValue"), ltr: true },
-  ];
-
   const pages = [
     { href: "/", label: "A-000" },
     { href: "/about", label: t("nav.about") },
@@ -53,21 +39,11 @@ export function Footer() {
   ];
 
   return (
-    <footer className="on-ink pb-28 pt-20 lg:pb-12">
+    <footer className="on-ink pb-28 pt-8 lg:pb-12">
       <div className="wrap">
         <h2 className="sr-only">{t("footer.titleBlock")}</h2>
 
-        {/* Title block */}
-        <dl className="grid grid-cols-2 border-s border-t border-paper/20 md:grid-cols-3 xl:grid-cols-6">
-          {cells.map((c) => (
-            <div key={c.k} className="grid gap-2 border-e border-b border-paper/20 p-4">
-              <dt className="mono text-ink-muted">{c.k}</dt>
-              <dd className={`mono text-[0.85rem] text-paper ${c.ltr ? "ltr" : ""}`}>{c.v}</dd>
-            </div>
-          ))}
-        </dl>
-
-        <div className="grid border-s border-paper/20 md:grid-cols-[2fr_1fr_1fr]">
+        <div className="grid border-s border-t border-paper/20 md:grid-cols-[2fr_1fr_1fr]">
           <div className="grid gap-4 border-e border-b border-paper/20 p-6">
             <p className="mono text-ink-muted">{t("footer.contact")}</p>
             <p className="max-w-[34ch]">{t("contact.address")}</p>

@@ -53,7 +53,7 @@ export function Accordion({ items, ink = false }: { items: AccordionItem[]; ink?
                 className="group flex w-full items-center justify-between gap-6 py-6 text-start"
               >
                 <span className="flex flex-wrap items-baseline gap-x-5 gap-y-1">
-                  <span className="h3 text-[clamp(1.2rem,2vw,1.6rem)]">{it.title}</span>
+                  <span className="h3 accordion-title">{it.title}</span>
                   {it.meta && <span className="mono opacity-70">{it.meta}</span>}
                 </span>
                 <span className="relative size-5 shrink-0" aria-hidden>

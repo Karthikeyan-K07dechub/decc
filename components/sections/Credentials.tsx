@@ -1,15 +1,14 @@
 import { useTranslations } from "next-intl";
-import { company, yearsActive } from "@/lib/content";
+import { company, projects, yearsActive } from "@/lib/content";
 
-/** SINCE 2009 / 17 YEARS / 00 PROJECTS / RAK MUNICIPALITY APPROVALS, set between dimension lines. */
+/** Company credentials and the current portfolio size, set between dimension lines. */
 export function Credentials() {
   const t = useTranslations("home.credentials");
   const years = yearsActive();
   const items = [
     { k: t("since"), v: String(company.founded), count: company.founded, from: 1990 },
     { k: t("years"), v: String(years), count: years },
-    // Unverified until DECC confirms its project count.
-    { k: t("projects"), v: "00", tbc: true },
+    { k: t("projects"), v: String(projects.length), count: projects.length },
     { k: t("approvals"), v: t("approvalsShort") },
   ];
   return (
@@ -29,7 +28,7 @@ export function Credentials() {
           {items.map((it, i) => (
             <div key={i} className="border-s border-ink/20 ps-5" data-fade data-delay={String(i * 0.08)}>
               <dt className="mono text-concrete-soft">{it.k}</dt>
-              <dd className={`display mt-3 text-[clamp(2.6rem,6vw,5.2rem)] ltr ${it.tbc ? "tbc" : ""}`}>
+              <dd className="display mt-3 text-[clamp(2.6rem,6vw,5.2rem)] ltr">
                 <span data-count={it.count} data-from={it.from}>
                   {it.v}
                 </span>

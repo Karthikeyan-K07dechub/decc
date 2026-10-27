@@ -3,10 +3,10 @@ import { Link } from "@/i18n/navigation";
 import { company } from "@/lib/content";
 
 /** Closing call to action for inner pages. `service` preselects the service on the contact form. */
-export function CtaBand({ title, text, service }: { title?: string; text?: string; service?: string }) {
+export function CtaBand({ title, text, service, className = "" }: { title?: string; text?: string; service?: string; className?: string }) {
   const t = useTranslations();
   return (
-    <section className="on-ink section">
+    <section className={`on-ink section ${className}`}>
       <div className="wrap flex flex-col gap-10 lg:flex-row lg:items-end lg:justify-between">
         <div>
           <p className="sheet-code mono ltr text-ink-muted">{company.sheets.contact}</p>

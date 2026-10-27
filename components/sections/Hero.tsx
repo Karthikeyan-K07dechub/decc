@@ -56,38 +56,119 @@ export function Hero() {
       };
       if (isDesktop()) window.addEventListener("pointermove", onMove, { passive: true });
 
-      /* Scroll: desktop pins for two screens while the camera orbits and materials fade in */
+      /* Pin when the content fits, including laptop viewports below 640px tall. */
       const mm = gsap.matchMedia();
       mm.add(
         {
-          desk: "(min-width: 1024px) and (min-height: 640px) and (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference)",
-          flow: "(prefers-reduced-motion: no-preference)",
+          desk: "(min-width: 1024px) and (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference)",
+          flow: "(min-width: 1024px) and (prefers-reduced-motion: no-preference)",
         },
         (c) => {
-          const desk = Boolean(c.conditions?.desk) && el.offsetHeight <= window.innerHeight + 1;
-          const tl = gsap.timeline({
-            defaults: { ease: "none" },
-            scrollTrigger: {
-              trigger: el,
-              start: "top top",
-              end: desk ? "+=200%" : "bottom top",
-              pin: desk,
-              scrub: desk ? 0.6 : true,
-              onUpdate: (st) => void (sceneStore.hero = st.progress),
-            },
-          });
-          // The finished building hands over to the real photograph.
-          tl.to("[data-hero-photo]", { opacity: 0.6, duration: 0.3 }, 0.66)
-            .to("[data-hero-scene]", { opacity: 0.12, duration: 0.3 }, 0.68)
-            .to("[data-hero-copy]", { opacity: desk ? 0.92 : 0.6, duration: 1 }, 0);
-          el.querySelectorAll<HTMLElement>("[data-ridge]").forEach((r) => {
-            tl.to(r, { y: -Number(r.dataset.speed) * (desk ? 6 : 3), duration: 1 }, 0);
-          });
+          const copy = el.querySelector<HTMLElement>("[data-hero-copy]")!;
+          let scrollContext: gsap.Context | undefined;
+          let pinned: boolean | undefined;
+          let frame = 0;
+
+          const sync = () => {
+            const desk = Boolean(c.conditions?.desk) && copy.offsetHeight <= window.innerHeight + 1;
+            if (desk === pinned) return;
+            scrollContext?.revert();
+            pinned = desk;
+            scrollContext = gsap.context(() => {
+              const tl = gsap.timeline({
+                defaults: { ease: "none" },
+                scrollTrigger: {
+                  trigger: el,
+                  start: "top top",
+                  end: () => desk ? `+=${window.innerHeight * (window.innerHeight <= 720 ? 1 : 2)}` : "bottom top",
+                  pin: desk,
+                  scrub: desk ? 0.6 : true,
+                  invalidateOnRefresh: true,
+                },
+              });
+              // The finished building hands over to the real photograph.
+              tl.to("[data-hero-photo]", { opacity: 0.6, duration: 0.3 }, 0.66)
+                .to("[data-hero-scene]", { opacity: 0.12, duration: 0.3 }, 0.68)
+                .to("[data-hero-copy]", { opacity: desk ? 0.92 : 0.6, duration: 1 }, 0);
+              el.querySelectorAll<HTMLElement>("[data-ridge]").forEach((r) => {
+                tl.to(r, { y: -Number(r.dataset.speed) * (desk ? 6 : 3), duration: 1 }, 0);
+              });
+              // The WebGL model follows the same scrubbed progress as the photo handover.
+              tl.eventCallback("onUpdate", () => { sceneStore.hero = tl.progress(); });
+            }, el);
+          };
+
+          const resize = () => {
+            cancelAnimationFrame(frame);
+            frame = requestAnimationFrame(() => {
+              sync();
+              ScrollTrigger.refresh();
+            });
+          };
+          sync();
+          const observer = new ResizeObserver(resize);
+          observer.observe(copy);
+          window.addEventListener("resize", resize, { passive: true });
           return () => {
+            cancelAnimationFrame(frame);
+            observer.disconnect();
+            window.removeEventListener("resize", resize);
+            scrollContext?.revert();
             sceneStore.hero = 0;
           };
         }
       );
+
+      // Mobile gets its own sequence; keep the checked desktop/laptop timeline above intact.
+      mm.add("(max-width: 1023px) and (prefers-reduced-motion: no-preference)", () => {
+        const copy = el.querySelector<HTMLElement>("[data-hero-copy]")!;
+        let drawingFollowsScroll = false;
+        let frame = 0;
+        const tl = gsap.timeline({
+          defaults: { ease: "none" },
+          scrollTrigger: {
+            trigger: el,
+            // Let short phones reveal the full copy before holding the hero in place.
+            start: () => copy.offsetHeight > document.documentElement.clientHeight + 1 ? "bottom bottom" : "top top",
+            end: () => `+=${document.documentElement.clientHeight}`,
+            pin: true,
+            scrub: true,
+            anticipatePin: 1,
+            invalidateOnRefresh: true,
+          },
+        });
+        tl.to("[data-hero-photo]", { opacity: 0.6, duration: 0.3 }, 0.66)
+          .to("[data-hero-scene]", { opacity: 0.12, duration: 0.3 }, 0.68)
+          .to("[data-hero-copy]", { opacity: 0.6, duration: 1 }, 0);
+        el.querySelectorAll<HTMLElement>("[data-ridge]").forEach((r) => {
+          tl.to(r, { y: -Number(r.dataset.speed) * 3, duration: 1 }, 0);
+        });
+        tl.eventCallback("onUpdate", () => {
+          const progress = tl.progress();
+          sceneStore.hero = progress;
+          if (progress > 0) {
+            // A quick swipe must finish drawing the model before the photo handover.
+            if (!drawingFollowsScroll) {
+              gsap.killTweensOf(sceneStore, "heroDraw");
+              drawingFollowsScroll = true;
+            }
+            sceneStore.heroDraw = Math.max(sceneStore.heroDraw, Math.min(1, progress / 0.25));
+          }
+        });
+        const refresh = () => {
+          cancelAnimationFrame(frame);
+          frame = requestAnimationFrame(() => ScrollTrigger.refresh());
+        };
+        const observer = new ResizeObserver(refresh);
+        observer.observe(copy);
+        window.addEventListener("resize", refresh, { passive: true });
+        return () => {
+          cancelAnimationFrame(frame);
+          observer.disconnect();
+          window.removeEventListener("resize", refresh);
+          sceneStore.hero = 0;
+        };
+      });
 
       return () => {
         stop();

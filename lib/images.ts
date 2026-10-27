@@ -18,6 +18,7 @@ export type ImageId =
   | "mountains"
   | "engineersSite"
   | "concreteFrame"
+  | "engineeringFacade"
   | "craneSite"
   | "mepDucts"
   | "mosque"
@@ -26,7 +27,13 @@ export type ImageId =
   | "warehouse"
   | "architectDesk"
   | "interior"
-  | "officeTower";
+  | "officeTower"
+  | "teamDirector"
+  | "teamArchitect"
+  | "teamStructural"
+  | "teamMep"
+  | "teamSite"
+  | "teamInterior";
 
 export interface SiteImage {
   id: ImageId;
@@ -42,6 +49,54 @@ export interface SiteImage {
 const u = (path: string) => `https://images.unsplash.com/${path}`;
 
 export const images: Record<ImageId, SiteImage> = {
+  teamDirector: {
+    id: "teamDirector",
+    url: u("photo-1600878459138-e1123b37cb30"),
+    alt: { en: "Stock portrait for an illustrative managing director profile", ar: "صورة توضيحية لملف مدير عام افتراضي" },
+    credit: { name: "Itay Verchik", page: "https://unsplash.com/photos/YmQ8TrsieE4" },
+    placeholder: true,
+    tone: "#b8b5ae",
+  },
+  teamArchitect: {
+    id: "teamArchitect",
+    url: u("photo-1573497019940-1c28c88b4f3e"),
+    alt: { en: "Stock portrait for an illustrative lead architect profile", ar: "صورة توضيحية لملف كبيرة معماريين افتراضي" },
+    credit: { name: "Christina @ wocintechchat.com", page: "https://unsplash.com/photos/SJvDxw0azqw" },
+    placeholder: true,
+    tone: "#bfc5c5",
+  },
+  teamStructural: {
+    id: "teamStructural",
+    url: u("photo-1500648767791-00dcc994a43e"),
+    alt: { en: "Stock portrait for an illustrative structural engineer profile", ar: "صورة توضيحية لملف مهندس إنشائي افتراضي" },
+    credit: { name: "Jurica Koletić", page: "https://unsplash.com/photos/7YVZYZeITc8" },
+    placeholder: true,
+    tone: "#c6c4be",
+  },
+  teamMep: {
+    id: "teamMep",
+    url: u("photo-1506794778202-cad84cf45f1d"),
+    alt: { en: "Stock portrait for an illustrative MEP engineer profile", ar: "صورة توضيحية لملف مهندس كهروميكانيك افتراضي" },
+    credit: { name: "Albert Dera", page: "https://unsplash.com/photos/ILip77SbmOE" },
+    placeholder: true,
+    tone: "#b9b8b2",
+  },
+  teamSite: {
+    id: "teamSite",
+    url: u("photo-1507003211169-0a1dd7228f2d"),
+    alt: { en: "Stock portrait for an illustrative site engineer profile", ar: "صورة توضيحية لملف مهندس موقع افتراضي" },
+    credit: { name: "Joseph Gonzalez", page: "https://unsplash.com/photos/iFgRcqHznqg" },
+    placeholder: true,
+    tone: "#c5bcac",
+  },
+  teamInterior: {
+    id: "teamInterior",
+    url: u("photo-1494790108377-be9c29b29330"),
+    alt: { en: "Stock portrait for an illustrative interior designer profile", ar: "صورة توضيحية لملف مصممة داخلية افتراضي" },
+    credit: { name: "Michael Dam", page: "https://unsplash.com/photos/mEZ3PoFGs_k" },
+    placeholder: true,
+    tone: "#b9c1b8",
+  },
   villaHero: {
     id: "villaHero",
     url: u("photo-1613977257363-707ba9348227"),
@@ -81,6 +136,14 @@ export const images: Record<ImageId, SiteImage> = {
     credit: { name: "Ronnakorn Triraganon", page: "https://unsplash.com/photos/construction-workers-review-plans-at-a-job-site-IvEYfb-3B70" },
     placeholder: true,
     tone: "#7d7a72",
+  },
+  engineeringFacade: {
+    id: "engineeringFacade",
+    url: u("photo-1763850407744-d2e14b99b1b9"),
+    alt: { en: "Clean concrete lines and a glass facade on a modern building beneath a blue sky", ar: "خطوط خرسانية واضحة وواجهة زجاجية لمبنى حديث تحت سماء زرقاء" },
+    credit: { name: "Ivan Rohovchenko", page: "https://unsplash.com/photos/modern-concrete-building-with-glass-facade-under-blue-sky-RvZbzrLX6LM" },
+    placeholder: true,
+    tone: "#a0b9c2",
   },
   concreteFrame: {
     id: "concreteFrame",

@@ -13,6 +13,8 @@ npm run dev
 
 Open http://localhost:3000. It redirects to `/en`; the Arabic site is at `/ar`.
 
+Run only one development server per checkout. `npm run dev` prevents a second instance from sharing the compilation cache. Stop the running terminal with Ctrl+C before restarting. Development output lives in `.next-dev`; production builds use `.next`, so building does not overwrite a live development preview.
+
 To check a production build:
 
 ```bash
@@ -132,7 +134,7 @@ A testimonials section is built but hidden. No quotes have been invented. To sho
 ## 9. Accessibility and motion
 
 - Visitors who set "reduce motion" see the final states with plain fades, and a photo instead of the 3D scenes.
-- On mobile the 3D is lighter, nothing is pinned, and the custom cursor and hover effects are off.
+- On mobile the 3D is lighter. The hero and building-layer diagram stay pinned through their animation sequences before releasing. The building-layer descriptions and other sections flow normally. The custom cursor and hover effects are off.
 - Phone numbers, coordinates and codes always read left to right, including on Arabic pages.
 
 Everything DECC still needs to supply is listed in `PLACEHOLDERS.md`.

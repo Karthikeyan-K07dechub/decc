@@ -1,0 +1,1485 @@
+{
+  "results": [
+    {
+      "locale": "en",
+      "width": 320,
+      "height": 568,
+      "target": 140,
+      "start": 2609.28125,
+      "initial": {
+        "pinned": true,
+        "top": 2749.28125,
+        "height": 288,
+        "width": 288,
+        "documentTop": 2749.28125,
+        "distance": 1136,
+        "labelOpacity": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "viewport": 568
+      },
+      "phases": [
+        {
+          "pinned": true,
+          "top": 140.28125,
+          "height": 288,
+          "width": 288,
+          "documentTop": 3158.28125,
+          "distance": 1136,
+          "active": "01 Foundation",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 568
+        },
+        {
+          "pinned": true,
+          "top": 140.28125,
+          "height": 288,
+          "width": 288,
+          "documentTop": 3272.28125,
+          "distance": 1136,
+          "active": "02 Structural frame",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 568
+        },
+        {
+          "pinned": true,
+          "top": 140.28125,
+          "height": 288,
+          "width": 288,
+          "documentTop": 3397.28125,
+          "distance": 1136,
+          "active": "03 MEP",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 568
+        },
+        {
+          "pinned": true,
+          "top": 140.28125,
+          "height": 288,
+          "width": 288,
+          "documentTop": 3522.28125,
+          "distance": 1136,
+          "active": "04 Facade",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 568
+        },
+        {
+          "pinned": true,
+          "top": 140.28125,
+          "height": 288,
+          "width": 288,
+          "documentTop": 3647.28125,
+          "distance": 1136,
+          "active": "05 Interiors",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 568
+        }
+      ],
+      "end": {
+        "pinned": true,
+        "top": 140.28125,
+        "height": 288,
+        "width": 288,
+        "documentTop": 3885.28125,
+        "distance": 1136,
+        "labelOpacity": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "viewport": 568
+      },
+      "after": {
+        "pinned": true,
+        "top": -59.71875,
+        "height": 288,
+        "width": 288,
+        "documentTop": 3885.28125,
+        "distance": 1136,
+        "labelOpacity": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "viewport": 568
+      },
+      "passed": true
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "height": 667,
+      "target": 162,
+      "start": 2634.953125,
+      "initial": {
+        "pinned": true,
+        "top": 2796.953125,
+        "height": 343,
+        "width": 343,
+        "documentTop": 2796.953125,
+        "distance": 1334,
+        "labelOpacity": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "viewport": 667
+      },
+      "phases": [
+        {
+          "pinned": true,
+          "top": 161.953125,
+          "height": 343,
+          "width": 343,
+          "documentTop": 3276.953125,
+          "distance": 1334,
+          "active": "01 Foundation",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 667
+        },
+        {
+          "pinned": true,
+          "top": 161.953125,
+          "height": 343,
+          "width": 343,
+          "documentTop": 3410.953125,
+          "distance": 1334,
+          "active": "02 Structural frame",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 667
+        },
+        {
+          "pinned": true,
+          "top": 161.953125,
+          "height": 343,
+          "width": 343,
+          "documentTop": 3556.953125,
+          "distance": 1334,
+          "active": "03 MEP",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 667
+        },
+        {
+          "pinned": true,
+          "top": 161.953125,
+          "height": 343,
+          "width": 343,
+          "documentTop": 3703.953125,
+          "distance": 1334,
+          "active": "04 Facade",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 667
+        },
+        {
+          "pinned": true,
+          "top": 161.953125,
+          "height": 343,
+          "width": 343,
+          "documentTop": 3850.953125,
+          "distance": 1334,
+          "active": "05 Interiors",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 667
+        }
+      ],
+      "end": {
+        "pinned": true,
+        "top": 161.953125,
+        "height": 343,
+        "width": 343,
+        "documentTop": 4130.953125,
+        "distance": 1334,
+        "labelOpacity": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "viewport": 667
+      },
+      "after": {
+        "pinned": true,
+        "top": -38.046875,
+        "height": 343,
+        "width": 343,
+        "documentTop": 4130.953125,
+        "distance": 1334,
+        "labelOpacity": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "viewport": 667
+      },
+      "passed": true
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "target": 243,
+      "start": 2882.890625,
+      "initial": {
+        "pinned": true,
+        "top": 3125.890625,
+        "height": 358,
+        "width": 358,
+        "documentTop": 3125.890625,
+        "distance": 1688,
+        "labelOpacity": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "viewport": 844
+      },
+      "phases": [
+        {
+          "pinned": true,
+          "top": 242.890625,
+          "height": 358,
+          "width": 358,
+          "documentTop": 3733.890625,
+          "distance": 1688,
+          "active": "01 Foundation",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 844
+        },
+        {
+          "pinned": true,
+          "top": 242.890625,
+          "height": 358,
+          "width": 358,
+          "documentTop": 3901.890625,
+          "distance": 1688,
+          "active": "02 Structural frame",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 844
+        },
+        {
+          "pinned": true,
+          "top": 242.890625,
+          "height": 358,
+          "width": 358,
+          "documentTop": 4087.890625,
+          "distance": 1688,
+          "active": "03 MEP",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 844
+        },
+        {
+          "pinned": true,
+          "top": 242.890625,
+          "height": 358,
+          "width": 358,
+          "documentTop": 4273.890625,
+          "distance": 1688,
+          "active": "04 Facade",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 844
+        },
+        {
+          "pinned": true,
+          "top": 242.890625,
+          "height": 358,
+          "width": 358,
+          "documentTop": 4458.890625,
+          "distance": 1688,
+          "active": "05 Interiors",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 844
+        }
+      ],
+      "end": {
+        "pinned": true,
+        "top": 242.890625,
+        "height": 358,
+        "width": 358,
+        "documentTop": 4813.890625,
+        "distance": 1688,
+        "labelOpacity": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "viewport": 844
+      },
+      "after": {
+        "pinned": true,
+        "top": 42.890625,
+        "height": 358,
+        "width": 358,
+        "documentTop": 4813.890625,
+        "distance": 1688,
+        "labelOpacity": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "viewport": 844
+      },
+      "passed": true
+    },
+    {
+      "locale": "en",
+      "width": 430,
+      "height": 932,
+      "target": 267,
+      "start": 3036.546875,
+      "initial": {
+        "pinned": true,
+        "top": 3303.546875,
+        "height": 398,
+        "width": 398,
+        "documentTop": 3303.546875,
+        "distance": 1864,
+        "labelOpacity": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "viewport": 932
+      },
+      "phases": [
+        {
+          "pinned": true,
+          "top": 266.546875,
+          "height": 398,
+          "width": 398,
+          "documentTop": 3974.546875,
+          "distance": 1864,
+          "active": "01 Foundation",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 932
+        },
+        {
+          "pinned": true,
+          "top": 266.546875,
+          "height": 398,
+          "width": 398,
+          "documentTop": 4160.546875,
+          "distance": 1864,
+          "active": "02 Structural frame",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 932
+        },
+        {
+          "pinned": true,
+          "top": 266.546875,
+          "height": 398,
+          "width": 398,
+          "documentTop": 4365.546875,
+          "distance": 1864,
+          "active": "03 MEP",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 932
+        },
+        {
+          "pinned": true,
+          "top": 266.546875,
+          "height": 398,
+          "width": 398,
+          "documentTop": 4570.546875,
+          "distance": 1864,
+          "active": "04 Facade",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 932
+        },
+        {
+          "pinned": true,
+          "top": 266.546875,
+          "height": 398,
+          "width": 398,
+          "documentTop": 4775.546875,
+          "distance": 1864,
+          "active": "05 Interiors",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 932
+        }
+      ],
+      "end": {
+        "pinned": true,
+        "top": 266.546875,
+        "height": 398,
+        "width": 398,
+        "documentTop": 5167.546875,
+        "distance": 1864,
+        "labelOpacity": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "viewport": 932
+      },
+      "after": {
+        "pinned": true,
+        "top": 66.546875,
+        "height": 398,
+        "width": 398,
+        "documentTop": 5167.546875,
+        "distance": 1864,
+        "labelOpacity": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "viewport": 932
+      },
+      "passed": true
+    },
+    {
+      "locale": "en",
+      "width": 844,
+      "height": 390,
+      "target": 80,
+      "start": 2149.921875,
+      "initial": {
+        "pinned": true,
+        "top": 2229.921875,
+        "height": 246,
+        "width": 790,
+        "documentTop": 2229.921875,
+        "distance": 780,
+        "labelOpacity": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "viewport": 390
+      },
+      "phases": [
+        {
+          "pinned": true,
+          "top": 79.921875,
+          "height": 246,
+          "width": 790,
+          "documentTop": 2510.921875,
+          "distance": 780,
+          "active": "01 Foundation",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 390
+        },
+        {
+          "pinned": true,
+          "top": 79.921875,
+          "height": 246,
+          "width": 790,
+          "documentTop": 2588.921875,
+          "distance": 780,
+          "active": "02 Structural frame",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 390
+        },
+        {
+          "pinned": true,
+          "top": 79.921875,
+          "height": 246,
+          "width": 790,
+          "documentTop": 2674.921875,
+          "distance": 780,
+          "active": "03 MEP",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 390
+        },
+        {
+          "pinned": true,
+          "top": 79.921875,
+          "height": 246,
+          "width": 790,
+          "documentTop": 2759.921875,
+          "distance": 780,
+          "active": "04 Facade",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 390
+        },
+        {
+          "pinned": true,
+          "top": 79.921875,
+          "height": 246,
+          "width": 790,
+          "documentTop": 2845.921875,
+          "distance": 780,
+          "active": "05 Interiors",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 390
+        }
+      ],
+      "end": {
+        "pinned": true,
+        "top": 79.921875,
+        "height": 246,
+        "width": 790,
+        "documentTop": 3009.921875,
+        "distance": 780,
+        "labelOpacity": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "viewport": 390
+      },
+      "after": {
+        "pinned": true,
+        "top": -120.078125,
+        "height": 246,
+        "width": 790,
+        "documentTop": 3009.921875,
+        "distance": 780,
+        "labelOpacity": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "viewport": 390
+      },
+      "passed": true
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "height": 568,
+      "target": 140,
+      "start": 2591.046875,
+      "initial": {
+        "pinned": true,
+        "top": 2731.046875,
+        "height": 288,
+        "width": 288,
+        "documentTop": 2731.046875,
+        "distance": 1136,
+        "labelOpacity": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "viewport": 568
+      },
+      "phases": [
+        {
+          "pinned": true,
+          "top": 140.046875,
+          "height": 288,
+          "width": 288,
+          "documentTop": 3140.046875,
+          "distance": 1136,
+          "active": "01 الأساسات",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 568
+        },
+        {
+          "pinned": true,
+          "top": 140.046875,
+          "height": 288,
+          "width": 288,
+          "documentTop": 3254.046875,
+          "distance": 1136,
+          "active": "02 الهيكل الإنشائي",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 568
+        },
+        {
+          "pinned": true,
+          "top": 140.046875,
+          "height": 288,
+          "width": 288,
+          "documentTop": 3379.046875,
+          "distance": 1136,
+          "active": "03 الأعمال الكهروميكانيكية",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 568
+        },
+        {
+          "pinned": true,
+          "top": 140.046875,
+          "height": 288,
+          "width": 288,
+          "documentTop": 3504.046875,
+          "distance": 1136,
+          "active": "04 الواجهات",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 568
+        },
+        {
+          "pinned": true,
+          "top": 140.046875,
+          "height": 288,
+          "width": 288,
+          "documentTop": 3628.046875,
+          "distance": 1136,
+          "active": "05 التصميم الداخلي",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 568
+        }
+      ],
+      "end": {
+        "pinned": true,
+        "top": 140.046875,
+        "height": 288,
+        "width": 288,
+        "documentTop": 3867.046875,
+        "distance": 1136,
+        "labelOpacity": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "viewport": 568
+      },
+      "after": {
+        "pinned": true,
+        "top": -59.953125,
+        "height": 288,
+        "width": 288,
+        "documentTop": 3867.046875,
+        "distance": 1136,
+        "labelOpacity": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "viewport": 568
+      },
+      "passed": true
+    },
+    {
+      "locale": "ar",
+      "width": 375,
+      "height": 667,
+      "target": 162,
+      "start": 2698.4375,
+      "initial": {
+        "pinned": true,
+        "top": 2860.4375,
+        "height": 343,
+        "width": 343,
+        "documentTop": 2860.4375,
+        "distance": 1334,
+        "labelOpacity": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "viewport": 667
+      },
+      "phases": [
+        {
+          "pinned": true,
+          "top": 162.4375,
+          "height": 343,
+          "width": 343,
+          "documentTop": 3341.4375,
+          "distance": 1334,
+          "active": "01 الأساسات",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 667
+        },
+        {
+          "pinned": true,
+          "top": 162.4375,
+          "height": 343,
+          "width": 343,
+          "documentTop": 3474.4375,
+          "distance": 1334,
+          "active": "02 الهيكل الإنشائي",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 667
+        },
+        {
+          "pinned": true,
+          "top": 162.4375,
+          "height": 343,
+          "width": 343,
+          "documentTop": 3621.4375,
+          "distance": 1334,
+          "active": "03 الأعمال الكهروميكانيكية",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 667
+        },
+        {
+          "pinned": true,
+          "top": 162.4375,
+          "height": 343,
+          "width": 343,
+          "documentTop": 3768.4375,
+          "distance": 1334,
+          "active": "04 الواجهات",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 667
+        },
+        {
+          "pinned": true,
+          "top": 162.4375,
+          "height": 343,
+          "width": 343,
+          "documentTop": 3914.4375,
+          "distance": 1334,
+          "active": "05 التصميم الداخلي",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 667
+        }
+      ],
+      "end": {
+        "pinned": true,
+        "top": 162.4375,
+        "height": 343,
+        "width": 343,
+        "documentTop": 4194.4375,
+        "distance": 1334,
+        "labelOpacity": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "viewport": 667
+      },
+      "after": {
+        "pinned": true,
+        "top": -37.5625,
+        "height": 343,
+        "width": 343,
+        "documentTop": 4194.4375,
+        "distance": 1334,
+        "labelOpacity": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "viewport": 667
+      },
+      "passed": true
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "target": 243,
+      "start": 2943.703125,
+      "initial": {
+        "pinned": true,
+        "top": 3186.703125,
+        "height": 358,
+        "width": 358,
+        "documentTop": 3186.703125,
+        "distance": 1688,
+        "labelOpacity": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "viewport": 844
+      },
+      "phases": [
+        {
+          "pinned": true,
+          "top": 242.703125,
+          "height": 358,
+          "width": 358,
+          "documentTop": 3793.703125,
+          "distance": 1688,
+          "active": "01 الأساسات",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 844
+        },
+        {
+          "pinned": true,
+          "top": 242.703125,
+          "height": 358,
+          "width": 358,
+          "documentTop": 3962.703125,
+          "distance": 1688,
+          "active": "02 الهيكل الإنشائي",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 844
+        },
+        {
+          "pinned": true,
+          "top": 242.703125,
+          "height": 358,
+          "width": 358,
+          "documentTop": 4148.703125,
+          "distance": 1688,
+          "active": "03 الأعمال الكهروميكانيكية",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 844
+        },
+        {
+          "pinned": true,
+          "top": 242.703125,
+          "height": 358,
+          "width": 358,
+          "documentTop": 4334.703125,
+          "distance": 1688,
+          "active": "04 الواجهات",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 844
+        },
+        {
+          "pinned": true,
+          "top": 242.703125,
+          "height": 358,
+          "width": 358,
+          "documentTop": 4519.703125,
+          "distance": 1688,
+          "active": "05 التصميم الداخلي",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 844
+        }
+      ],
+      "end": {
+        "pinned": true,
+        "top": 242.703125,
+        "height": 358,
+        "width": 358,
+        "documentTop": 4874.703125,
+        "distance": 1688,
+        "labelOpacity": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "viewport": 844
+      },
+      "after": {
+        "pinned": true,
+        "top": 42.703125,
+        "height": 358,
+        "width": 358,
+        "documentTop": 4874.703125,
+        "distance": 1688,
+        "labelOpacity": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "viewport": 844
+      },
+      "passed": true
+    },
+    {
+      "locale": "ar",
+      "width": 430,
+      "height": 932,
+      "target": 267,
+      "start": 3041.78125,
+      "initial": {
+        "pinned": true,
+        "top": 3308.78125,
+        "height": 398,
+        "width": 398,
+        "documentTop": 3308.78125,
+        "distance": 1864,
+        "labelOpacity": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "viewport": 932
+      },
+      "phases": [
+        {
+          "pinned": true,
+          "top": 266.78125,
+          "height": 398,
+          "width": 398,
+          "documentTop": 3979.78125,
+          "distance": 1864,
+          "active": "01 الأساسات",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 932
+        },
+        {
+          "pinned": true,
+          "top": 266.78125,
+          "height": 398,
+          "width": 398,
+          "documentTop": 4165.78125,
+          "distance": 1864,
+          "active": "02 الهيكل الإنشائي",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 932
+        },
+        {
+          "pinned": true,
+          "top": 266.78125,
+          "height": 398,
+          "width": 398,
+          "documentTop": 4370.78125,
+          "distance": 1864,
+          "active": "03 الأعمال الكهروميكانيكية",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 932
+        },
+        {
+          "pinned": true,
+          "top": 266.78125,
+          "height": 398,
+          "width": 398,
+          "documentTop": 4575.78125,
+          "distance": 1864,
+          "active": "04 الواجهات",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 932
+        },
+        {
+          "pinned": true,
+          "top": 266.78125,
+          "height": 398,
+          "width": 398,
+          "documentTop": 4780.78125,
+          "distance": 1864,
+          "active": "05 التصميم الداخلي",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 932
+        }
+      ],
+      "end": {
+        "pinned": true,
+        "top": 266.78125,
+        "height": 398,
+        "width": 398,
+        "documentTop": 5172.78125,
+        "distance": 1864,
+        "labelOpacity": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "viewport": 932
+      },
+      "after": {
+        "pinned": true,
+        "top": 66.78125,
+        "height": 398,
+        "width": 398,
+        "documentTop": 5172.78125,
+        "distance": 1864,
+        "labelOpacity": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "viewport": 932
+      },
+      "passed": true
+    },
+    {
+      "locale": "ar",
+      "width": 844,
+      "height": 390,
+      "target": 80,
+      "start": 2217.328125,
+      "initial": {
+        "pinned": true,
+        "top": 2297.328125,
+        "height": 246,
+        "width": 790,
+        "documentTop": 2297.328125,
+        "distance": 780,
+        "labelOpacity": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "viewport": 390
+      },
+      "phases": [
+        {
+          "pinned": true,
+          "top": 80.328125,
+          "height": 246,
+          "width": 790,
+          "documentTop": 2578.328125,
+          "distance": 780,
+          "active": "01 الأساسات",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 390
+        },
+        {
+          "pinned": true,
+          "top": 80.328125,
+          "height": 246,
+          "width": 790,
+          "documentTop": 2656.328125,
+          "distance": 780,
+          "active": "02 الهيكل الإنشائي",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 390
+        },
+        {
+          "pinned": true,
+          "top": 80.328125,
+          "height": 246,
+          "width": 790,
+          "documentTop": 2742.328125,
+          "distance": 780,
+          "active": "03 الأعمال الكهروميكانيكية",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 390
+        },
+        {
+          "pinned": true,
+          "top": 80.328125,
+          "height": 246,
+          "width": 790,
+          "documentTop": 2828.328125,
+          "distance": 780,
+          "active": "04 الواجهات",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 390
+        },
+        {
+          "pinned": true,
+          "top": 80.328125,
+          "height": 246,
+          "width": 790,
+          "documentTop": 2914.328125,
+          "distance": 780,
+          "active": "05 التصميم الداخلي",
+          "labelOpacity": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "viewport": 390
+        }
+      ],
+      "end": {
+        "pinned": true,
+        "top": 80.328125,
+        "height": 246,
+        "width": 790,
+        "documentTop": 3077.328125,
+        "distance": 780,
+        "labelOpacity": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "viewport": 390
+      },
+      "after": {
+        "pinned": true,
+        "top": -119.671875,
+        "height": 246,
+        "width": 790,
+        "documentTop": 3077.328125,
+        "distance": 780,
+        "labelOpacity": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "viewport": 390
+      },
+      "passed": true
+    }
+  ],
+  "touchPassed": true,
+  "touchMid": {
+    "pinned": true,
+    "top": 242.703125,
+    "height": 358,
+    "width": 358,
+    "documentTop": 3531.703125,
+    "distance": 1688,
+    "active": "01 الأساسات",
+    "labelOpacity": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "viewport": 844
+  },
+  "touchAfter": {
+    "pinned": true,
+    "top": -484.296875,
+    "height": 358,
+    "width": 358,
+    "documentTop": 4874.703125,
+    "distance": 1688,
+    "labelOpacity": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "viewport": 844
+  },
+  "reduced": {
+    "pinned": false,
+    "top": -3016.296875,
+    "height": 358,
+    "width": 358,
+    "documentTop": 2342.703125,
+    "distance": 0,
+    "labelOpacity": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "viewport": 844
+  },
+  "errors": []
+}

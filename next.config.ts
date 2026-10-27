@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import { PHASE_DEVELOPMENT_SERVER } from "next/constants";
 import createNextIntlPlugin from "next-intl/plugin";
 
 const withNextIntl = createNextIntlPlugin("./i18n/request.ts");
@@ -15,8 +16,14 @@ const nextConfig: NextConfig = {
     ],
   },
   experimental: {
+    // Leave room for multipart fields around the advertised 5 MB CV upload.
+    serverActions: { bodySizeLimit: "6mb" },
     optimizePackageImports: ["gsap", "@react-three/drei"],
   },
 };
 
-export default withNextIntl(nextConfig);
+export default (phase: string) => withNextIntl({
+  ...nextConfig,
+  // Development and production must never overwrite each other's chunks.
+  distDir: phase === PHASE_DEVELOPMENT_SERVER ? ".next-dev" : ".next",
+});

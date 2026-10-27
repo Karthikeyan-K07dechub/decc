@@ -56,7 +56,7 @@ export function WhyDecc() {
             <path d="M120 32l-14 14M280 32l-14 14" vectorEffect="non-scaling-stroke" />
           </svg>
           <div data-parallax className="relative aspect-[4/5] overflow-hidden">
-            <Photo id="concreteFrame" sizes="(min-width: 1024px) 40vw, 100vw" />
+            <Photo id="engineeringFacade" sizes="(min-width: 1024px) 40vw, 100vw" />
           </div>
           <p className="mono mt-3 text-concrete-soft">{t("title")} · 1:50</p>
         </div>

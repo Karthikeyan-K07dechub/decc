@@ -2,7 +2,7 @@
 
 import { useRef, useState } from "react";
 import { useTranslations } from "next-intl";
-import { gsap, useGSAP } from "@/lib/gsap";
+import { gsap, ScrollTrigger, useGSAP } from "@/lib/gsap";
 import { sceneStore, activeLayer, separation } from "@/components/three/store";
 import { ExplodedScene, useSceneMode } from "@/components/three/Scenes";
 import { Elevation } from "@/components/ui/Elevation";
@@ -27,7 +27,6 @@ export function Exploded() {
       mm.add(
         {
           desk: "(min-width: 1024px) and (prefers-reduced-motion: no-preference)",
-          mob: "(max-width: 1023px) and (prefers-reduced-motion: no-preference)",
         },
         (c) => {
           const desk = c.conditions?.desk;
@@ -50,6 +49,43 @@ export function Exploded() {
           };
         }
       );
+
+      // Hold only the diagram on mobile; the full layer descriptions above still flow normally.
+      mm.add("(max-width: 1023px) and (prefers-reduced-motion: no-preference)", () => {
+        const stage = root.current!.querySelector<HTMLElement>("[data-exploded-stage]")!;
+        const copy = root.current!.querySelector<HTMLElement>("[data-exploded-pin] > div")!;
+        let frame = 0;
+        gsap.timeline({
+          scrollTrigger: {
+            trigger: stage,
+            start: () => `top ${Math.max(80, (document.documentElement.clientHeight - stage.offsetHeight) / 2)}px`,
+            end: () => `+=${document.documentElement.clientHeight * 2}`,
+            pin: true,
+            scrub: true,
+            anticipatePin: 1,
+            invalidateOnRefresh: true,
+            onUpdate: (st) => {
+              sceneStore.exploded = st.progress;
+              const sep = separation(st.progress);
+              setActive(sep > 0.5 ? activeLayer(st.progress) : st.progress > 0.9 ? 5 : -1);
+            },
+          },
+        });
+        const refresh = () => {
+          cancelAnimationFrame(frame);
+          frame = requestAnimationFrame(() => ScrollTrigger.refresh());
+        };
+        const observer = new ResizeObserver(refresh);
+        observer.observe(stage);
+        observer.observe(copy);
+        window.addEventListener("resize", refresh, { passive: true });
+        return () => {
+          cancelAnimationFrame(frame);
+          observer.disconnect();
+          window.removeEventListener("resize", refresh);
+          sceneStore.exploded = 0;
+        };
+      });
       return () => mm.revert();
     },
     { scope: root }
@@ -63,7 +99,7 @@ export function Exploded() {
         {/* Copy */}
         <div className="relative z-10 grid gap-8 lg:py-24">
           <p className="sheet-code mono ltr">S-200 · {t("complete")}</p>
-          <h2 id="exploded-title" className="display h2 max-w-[14ch]" data-split>
+          <h2 id="exploded-title" className="display exploded-title max-w-[14ch]" data-split>
             {t("title")}
           </h2>
           <p className="lead text-concrete-soft" data-fade>
@@ -100,7 +136,7 @@ export function Exploded() {
         </div>
 
         {/* Stage */}
-        <div data-exploded-stage className="drafting relative aspect-square w-full overflow-hidden border border-ink/10 lg:aspect-auto lg:h-[86svh]">
+        <div data-exploded-stage className="drafting relative aspect-square w-full overflow-hidden border border-ink/10 max-lg:max-h-[calc(100svh-9rem-env(safe-area-inset-bottom,0px))] lg:aspect-auto lg:h-[86svh]">
           {mode === "3d" ? (
             <>
               <ExplodedScene label={t("sceneLabel")} labels={labels} />

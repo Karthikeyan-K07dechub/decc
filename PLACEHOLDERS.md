@@ -6,10 +6,10 @@ On the site, everything below is shown either as **00**, with a dotted clay unde
 
 | What | Where | Now |
 |---|---|---|
-| Total projects completed | Home → credentials strip | 00 |
+| Portfolio project count | Home → credentials strip | Automatically counts the listed portfolio entries (currently 8 sample projects); not a claim about total completed jobs |
 | Plot area for each project | `projects[].data.plotArea` | 00 m² |
 | Completion year for each project | `projects[].data.year` | 00 |
-| Timeline years: first residential building, first mosque, interior design added, move to Julphar Tower | `about.timeline` (set `confirmed: true` once the year is filled in) | 00 |
+| Timeline years: first residential building, first mosque, interior design added, move to Julphar Tower | `about.timeline` (set `confirmed: true` only after DECC verifies each date) | Illustrative years: 2012, 2015, 2018, 2022; labelled as awaiting confirmation |
 | RAK Municipality consultant registration no. | `about.licences` | Reg. no. 00 |
 | Civil Defence approved consultant no. | `about.licences` | Reg. no. 00 |
 | Trade licence no. | `about.licences` | No. 00 |
@@ -31,14 +31,14 @@ Replace them with real projects and photos, then remove the "Sample project" lab
 
 ## Team (`about.team`)
 
-- There are six roles, each named "Name to confirm".
-- The portraits are drawn placeholders (`components/ui/Portrait.tsx`). Replace them with real photos: add them to `lib/images.ts` and swap `<Portrait>` for `<Photo>`.
+- Six roles have illustrative names in English and Arabic, with stock Unsplash portraits. The section explicitly identifies these as sample profiles, not verified DECC staff.
+- Replace the names in `about.team` and the six `team*` images in `lib/images.ts` with approved staff details. Photo credits and source links are recorded in the image registry. Remove `about.teamSampleNote` from the rendered section only when all profiles are verified.
 
 ## Careers (`careers.roles`)
 
 The Architect, Structural Engineer and Site Engineer roles are samples. Confirm the current openings before going live.
 
-## Photos (`lib/images.ts`): all 15 are free Unsplash stand-ins
+## Photos (`lib/images.ts`): project, office, and team images are Unsplash stand-ins
 
 | Id | Used for | Note |
 |---|---|---|
@@ -47,7 +47,8 @@ The Architect, Structural Engineer and Site Engineer roles are samples. Confirm 
 | villaCourt | P-308 | Photographed in the UAE |
 | mountains | (spare) | Real Hajar mountains, Wadi Ghalilah, RAK |
 | engineersSite | Supervision, Careers | |
-| concreteFrame | Structural, Why DECC, P-307 | |
+| concreteFrame | Structural, P-307 | |
+| engineeringFacade | Why DECC | Modern concrete and glass facade; stock image by Ivan Rohovchenko |
 | craneSite | Approvals | |
 | mepDucts | MEP | |
 | mosque | P-303 | Istanbul domes, a deliberately non-UAE landmark so nobody assumes DECC designed it |
@@ -63,5 +64,5 @@ The Architect, Structural Engineer and Site Engineer roles are samples. Confirm 
 - **Testimonials:** hidden. Add real, approved quotes only (see the README).
 - **Open Graph image:** uses villaHero. Replace it with a branded 1200×630 image if you like (`lib/seo.ts`).
 - **Logo:** the DECC wordmark is typeset in Archivo (`components/ui/Logo.tsx`). Swap in the official logo SVG if DECC has one.
-- **Map:** the contact map is a schematic line drawing, not to scale. The "Get directions" link uses the real coordinates, 25.7911°N 55.9602°E.
+- **Map:** the contact page embeds a Google Maps preview using the configured coordinates, 25.7911°N 55.9602°E. Clicking the preview or "Get directions" opens the same location in Google Maps. Keep `company.coords` and `company.mapsUrl` aligned when updating the office location.
 - **Email:** form submissions are only logged until Resend is connected (see README section 6).

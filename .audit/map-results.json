@@ -1,0 +1,80 @@
+[
+  {
+    "locale": "en",
+    "width": 1366,
+    "src": "https://maps.google.com/maps?q=25.7911%2C55.9602&z=16&hl=en&output=embed",
+    "href": "https://www.google.com/maps/search/?api=1&query=25.7911,55.9602",
+    "target": "_blank",
+    "label": "Open in Google Maps: Julphar Tower · Al Hisn Street",
+    "mapWidth": 487.171875,
+    "height": 364.875,
+    "docWidth": 1351,
+    "right": 1306.296875,
+    "clickable": true
+  },
+  {
+    "locale": "en",
+    "width": 390,
+    "src": "https://maps.google.com/maps?q=25.7911%2C55.9602&z=16&hl=en&output=embed",
+    "href": "https://www.google.com/maps/search/?api=1&query=25.7911,55.9602",
+    "target": "_blank",
+    "label": "Open in Google Maps: Julphar Tower · Al Hisn Street",
+    "mapWidth": 356,
+    "height": 278,
+    "docWidth": 390,
+    "right": 373,
+    "clickable": true
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "src": "https://maps.google.com/maps?q=25.7911%2C55.9602&z=16&hl=en&output=embed",
+    "href": "https://www.google.com/maps/search/?api=1&query=25.7911,55.9602",
+    "target": "_blank",
+    "label": "Open in Google Maps: Julphar Tower · Al Hisn Street",
+    "mapWidth": 286,
+    "height": 278,
+    "docWidth": 320,
+    "right": 303,
+    "clickable": true
+  },
+  {
+    "locale": "ar",
+    "width": 1366,
+    "src": "https://maps.google.com/maps?q=25.7911%2C55.9602&z=16&hl=ar&output=embed",
+    "href": "https://www.google.com/maps/search/?api=1&query=25.7911,55.9602",
+    "target": "_blank",
+    "label": "افتح في خرائط Google: برج جلفار · شارع الحصن",
+    "mapWidth": 487.171875,
+    "height": 364.875,
+    "docWidth": 1351,
+    "right": 531.875,
+    "clickable": true
+  },
+  {
+    "locale": "ar",
+    "width": 390,
+    "src": "https://maps.google.com/maps?q=25.7911%2C55.9602&z=16&hl=ar&output=embed",
+    "href": "https://www.google.com/maps/search/?api=1&query=25.7911,55.9602",
+    "target": "_blank",
+    "label": "افتح في خرائط Google: برج جلفار · شارع الحصن",
+    "mapWidth": 356,
+    "height": 278,
+    "docWidth": 390,
+    "right": 373,
+    "clickable": true
+  },
+  {
+    "locale": "ar",
+    "width": 320,
+    "src": "https://maps.google.com/maps?q=25.7911%2C55.9602&z=16&hl=ar&output=embed",
+    "href": "https://www.google.com/maps/search/?api=1&query=25.7911,55.9602",
+    "target": "_blank",
+    "label": "افتح في خرائط Google: برج جلفار · شارع الحصن",
+    "mapWidth": 286,
+    "height": 278,
+    "docWidth": 320,
+    "right": 303,
+    "clickable": true
+  }
+]

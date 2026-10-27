@@ -7,7 +7,7 @@ import { Link } from "@/i18n/navigation";
 export function ConsultationCta() {
   const t = useTranslations();
   return (
-    <section className="on-ink section relative overflow-hidden" aria-labelledby="cta-title">
+    <section className="on-ink section relative overflow-hidden pb-10 lg:pb-12" aria-labelledby="cta-title">
       <div className="wrap grid gap-14 lg:grid-cols-12">
         <div className="lg:col-span-5">
           <p className="sheet-code mono ltr text-ink-muted">{company.sheets.contact}</p>

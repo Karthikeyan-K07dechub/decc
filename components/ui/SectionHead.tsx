@@ -12,7 +12,7 @@ export function SectionHead({
   intro?: string;
   as?: "h1" | "h2";
   className?: string;
-  size?: "h2" | "h-display";
+  size?: "h2" | "h-display" | "h2-compact";
 }) {
   return (
     <header className={`grid gap-6 ${className}`}>

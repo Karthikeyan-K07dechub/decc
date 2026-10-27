@@ -57,8 +57,14 @@ function Submit({ label }: { label: string }) {
 }
 
 /** A clay underline that redraws itself into a check mark when a form succeeds. */
-function SuccessMark({ ok, message }: { ok: boolean; message: string }) {
+function SuccessMark({ ok, message, focusOnSuccess = false }: { ok: boolean; message: string; focusOnSuccess?: boolean }) {
+  const root = useRef<HTMLDivElement>(null);
   const ref = useRef<SVGSVGElement>(null);
+  useEffect(() => {
+    if (!ok || !focusOnSuccess || !root.current) return;
+    root.current.focus({ preventScroll: true });
+    root.current.scrollIntoView({ block: "center", behavior: prefersReducedMotion() ? "auto" : "smooth" });
+  }, [ok, focusOnSuccess]);
   useEffect(() => {
     if (!ok || !ref.current) return;
     const line = ref.current.querySelector<SVGPathElement>("[data-line]")!;
@@ -76,8 +82,14 @@ function SuccessMark({ ok, message }: { ok: boolean; message: string }) {
   }, [ok]);
 
   return (
-    <div className="flex items-center gap-5" aria-live="polite">
-      <svg ref={ref} viewBox="0 0 120 40" className="h-10 w-28 shrink-0 text-clay" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden>
+    <div
+      ref={root}
+      className={focusOnSuccess ? "flex scroll-mt-24 items-center gap-4 border border-teal/25 bg-teal/5 p-6" : "flex items-center gap-5"}
+      role={ok ? "status" : undefined}
+      aria-live="polite"
+      tabIndex={ok && focusOnSuccess ? -1 : undefined}
+    >
+      <svg ref={ref} viewBox="0 0 120 40" className={`h-10 shrink-0 text-clay ${focusOnSuccess ? "w-14" : "w-28"}`} fill="none" stroke="currentColor" strokeWidth="2" aria-hidden>
         <path data-line d="M0 36H120" />
         <path data-check d="M38 20l14 13 30-28" strokeDasharray="200" strokeDashoffset="200" />
       </svg>
@@ -220,14 +232,42 @@ export function EnquiryForm() {
 
 export function ApplicationForm({ roles }: { roles: string[] }) {
   const t = useTranslations();
-  const [state, action] = useActionState(sendApplication, null);
+  const form = useRef<HTMLFormElement>(null);
+  const submitted = useRef<FormData | null>(null);
+  const [state, action] = useActionState(async (previous: FormState, data: FormData) => {
+    submitted.current = data;
+    return sendApplication(previous, data);
+  }, null);
   const [file, setFile] = useState<string>("");
   const e = state?.errors ?? {};
 
-  if (state?.ok) return <SuccessMark ok message={t("careers.success")} />;
+  useEffect(() => {
+    if (!state) return;
+    if (state.ok) {
+      submitted.current = null;
+      return;
+    }
+    // React resets uncontrolled inputs after an action resolves, including validation errors.
+    // Restore the submitted values so the visible filename and actual CV remain in sync.
+    if (!form.current || !submitted.current) return;
+    for (const [name, value] of submitted.current.entries()) {
+      const input = form.current.elements.namedItem(name);
+      if (typeof value === "string") {
+        if (input instanceof HTMLInputElement || input instanceof HTMLSelectElement || input instanceof HTMLTextAreaElement) {
+          input.value = value;
+        }
+      } else if (input instanceof HTMLInputElement && input.type === "file" && value.size > 0) {
+        const transfer = new DataTransfer();
+        transfer.items.add(value);
+        input.files = transfer.files;
+      }
+    }
+  }, [state]);
+
+  if (state?.ok) return <SuccessMark ok message={t("careers.success")} focusOnSuccess />;
 
   return (
-    <form action={action} noValidate className="grid gap-9" encType="multipart/form-data">
+    <form ref={form} action={action} noValidate className="grid gap-9">
       <div className="grid gap-9 md:grid-cols-2">
         <Field name="name" label={t("form.name")} error={e.name}>
           {(p) => <input {...p} name="name" autoComplete="name" className="field-input" required />}

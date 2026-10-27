@@ -56,11 +56,11 @@ export default async function ProjectPage({ params }: Props) {
       <section className="on-ink relative">
         <LineToPhoto image={p.image} elevation={p.elevation} sizes="100vw" className="h-[78svh] min-h-[28rem] lg:h-[92svh]" ink priority immediate />
         <div className="wrap relative -mt-28 pb-12 lg:-mt-48">
-          <div className="max-w-4xl bg-ink pe-8 pt-8">
+          <div className="flex max-w-4xl flex-col justify-center gap-5 bg-ink pe-8 py-4">
             <p className="sheet-code mono ltr text-ink-muted">
               {p.code} · <span className="text-clay-soft">{t("common.sampleProject")}</span>
             </p>
-            <h1 className="display h2 mt-5 max-w-[18ch]" data-split>
+            <h1 className="display h2 max-w-[18ch]" data-split>
               {t(`${k}.title`)}
             </h1>
           </div>

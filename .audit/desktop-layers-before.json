@@ -1,0 +1,95 @@
+[
+  {
+    "width": 1920,
+    "height": 1080,
+    "initial": {
+      "pinned": true,
+      "height": 1080,
+      "distance": 3240,
+      "top": 3565.546875,
+      "stageWidth": 947.328125,
+      "stageHeight": 928.796875,
+      "active": "00 / 05"
+    },
+    "middle": {
+      "pinned": true,
+      "height": 1080,
+      "distance": 3240,
+      "top": -0.453125,
+      "stageWidth": 947.328125,
+      "stageHeight": 928.796875,
+      "active": "02 / 05 · Structural engineeringStructural frameColumns, beams and slabs sized for the load, checked against UAE codes."
+    },
+    "after": {
+      "pinned": true,
+      "height": 1080,
+      "distance": 3240,
+      "top": -200.453125,
+      "stageWidth": 947.328125,
+      "stageHeight": 928.796875,
+      "active": "Complete building"
+    }
+  },
+  {
+    "width": 1366,
+    "height": 768,
+    "initial": {
+      "pinned": true,
+      "height": 768,
+      "distance": 2304,
+      "top": 2628.390625,
+      "stageWidth": 713.765625,
+      "stageHeight": 660.46875,
+      "active": "00 / 05"
+    },
+    "middle": {
+      "pinned": true,
+      "height": 768,
+      "distance": 2304,
+      "top": 0.390625,
+      "stageWidth": 713.765625,
+      "stageHeight": 660.46875,
+      "active": "02 / 05 · Structural engineeringStructural frameColumns, beams and slabs sized for the load, checked against UAE codes."
+    },
+    "after": {
+      "pinned": true,
+      "height": 768,
+      "distance": 2304,
+      "top": -199.609375,
+      "stageWidth": 713.765625,
+      "stageHeight": 660.46875,
+      "active": "Complete building"
+    }
+  },
+  {
+    "width": 1280,
+    "height": 600,
+    "initial": {
+      "pinned": true,
+      "height": 630,
+      "distance": 1800,
+      "top": 1519.640625,
+      "stageWidth": 666.8125,
+      "stageHeight": 516,
+      "active": "00 / 05"
+    },
+    "middle": {
+      "pinned": true,
+      "height": 630,
+      "distance": 1800,
+      "top": -0.359375,
+      "stageWidth": 666.8125,
+      "stageHeight": 516,
+      "active": "02 / 05 · Structural engineeringStructural frameColumns, beams and slabs sized for the load, checked against UAE codes."
+    },
+    "after": {
+      "pinned": true,
+      "height": 630,
+      "distance": 1800,
+      "top": -200.359375,
+      "stageWidth": 666.8125,
+      "stageHeight": 516,
+      "active": "Complete building"
+    }
+  }
+]
