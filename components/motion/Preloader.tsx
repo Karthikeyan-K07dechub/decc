@@ -26,6 +26,7 @@ export function Preloader({ label }: { label: string }) {
     const pct = el.querySelector<HTMLElement>("[data-pct]")!;
     const progress = { value: 0 };
     const tl = gsap.timeline({
+      paused: true,
       onComplete: () => {
         html.style.overflow = previousOverflow;
         html.classList.remove("preload");
@@ -36,7 +37,7 @@ export function Preloader({ label }: { label: string }) {
     });
     tl.fromTo(el.querySelector("[data-grid]"), { opacity: 0, scale: 1.04 }, { opacity: 1, scale: 1, duration: 1.6 }, 0)
       .fromTo(el.querySelectorAll("[data-letter]"), { yPercent: 110, rotate: 5 }, { yPercent: 0, rotate: 0, duration: 1, stagger: 0.09, ease: "power4.out" }, 0.12)
-      .fromTo(el.querySelector("[data-rule]"), { scaleX: 0 }, { scaleX: 1, duration: 1.1, ease: "power3.inOut" }, 0.25)
+      .fromTo(el.querySelector("[data-intro-rule]"), { scaleX: 0 }, { scaleX: 1, duration: 1.1, ease: "power3.inOut" }, 0.25)
       .fromTo(el.querySelectorAll("[data-detail]"), { opacity: 0, y: 8 }, { opacity: 1, y: 0, duration: 0.65, stagger: 0.08 }, 0.55)
       .to(progress, {
         value: 100, duration: 1.65, ease: "power2.inOut",
@@ -47,7 +48,36 @@ export function Preloader({ label }: { label: string }) {
       .to(el.querySelectorAll("[data-furniture]"), { opacity: 0, duration: 0.3 }, 1.8)
       .to(el, { clipPath: "inset(0 0 100% 0)", duration: 0.85, ease: "power4.inOut" }, 1.95);
 
+    // The site's smooth-scroll ticker deliberately disables GSAP lag smoothing.
+    // Give this intro its own frame clock so hydration/3D startup stalls cannot
+    // consume the whole sequence before the browser can paint it.
+    let frame = 0;
+    let elapsed = 0;
+    let previous: number | null = null;
+    let cancelled = false;
+    let fontTimeout: ReturnType<typeof setTimeout>;
+    const tick = (now: number) => {
+      if (cancelled) return;
+      if (previous !== null && document.visibilityState === "visible") {
+        elapsed += Math.min(now - previous, 50) / 1000;
+      }
+      previous = now;
+      tl.totalTime(Math.min(elapsed, tl.duration()));
+      if (elapsed < tl.duration()) frame = requestAnimationFrame(tick);
+    };
+    // Avoid revealing the wordmark only after its font has finally downloaded.
+    void Promise.race([
+      document.fonts.ready,
+      new Promise<void>(resolve => { fontTimeout = setTimeout(resolve, 1200); }),
+    ]).then(() => {
+      clearTimeout(fontTimeout);
+      if (!cancelled) frame = requestAnimationFrame(tick);
+    });
+
     return () => {
+      cancelled = true;
+      cancelAnimationFrame(frame);
+      clearTimeout(fontTimeout);
       tl.kill();
       html.style.overflow = previousOverflow;
       getLenis()?.start();
@@ -66,7 +96,7 @@ export function Preloader({ label }: { label: string }) {
         <div className="preloader-word" dir="ltr">
           {Array.from("DECC").map((letter, i) => <span className="preloader-letter-mask" key={i}><span data-letter>{letter}</span></span>)}
         </div>
-        <div className="preloader-rule" data-rule />
+        <div className="preloader-rule" data-intro-rule />
         <p className="preloader-name" data-detail>DESIGNER ENGINEERING<br />CONSULTANTS</p>
         <p className="preloader-signature" data-detail>Architecture. Engineered.</p>
       </div>
