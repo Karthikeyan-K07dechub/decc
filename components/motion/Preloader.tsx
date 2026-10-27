@@ -36,7 +36,7 @@ export function Preloader({ label }: { label: string }) {
       },
     });
     tl.fromTo(el.querySelector("[data-grid]"), { opacity: 0, scale: 1.04 }, { opacity: 1, scale: 1, duration: 1.6 }, 0)
-      .fromTo(el.querySelectorAll("[data-letter]"), { yPercent: 110, rotate: 5 }, { yPercent: 0, rotate: 0, duration: 1, stagger: 0.09, ease: "power4.out" }, 0.12)
+      .fromTo(el.querySelectorAll("[data-letter]"), { y: 0, yPercent: 110, rotate: 5, autoAlpha: 0 }, { y: 0, yPercent: 0, rotate: 0, autoAlpha: 1, duration: 1, stagger: 0.09, ease: "power4.out" }, 0.12)
       .fromTo(el.querySelector("[data-intro-rule]"), { scaleX: 0 }, { scaleX: 1, duration: 1.1, ease: "power3.inOut" }, 0.25)
       .fromTo(el.querySelectorAll("[data-detail]"), { opacity: 0, y: 8 }, { opacity: 1, y: 0, duration: 0.65, stagger: 0.08 }, 0.55)
       .to(progress, {
@@ -94,7 +94,12 @@ export function Preloader({ label }: { label: string }) {
       </div>
       <div className="preloader-center" data-center aria-hidden="true">
         <div className="preloader-word" dir="ltr">
-          {Array.from("DECC").map((letter, i) => <span className="preloader-letter-mask" key={i}><span data-letter>{letter}</span></span>)}
+          {Array.from("DECC").map((letter, i) => (
+            <span className="preloader-letter-mask" key={i}>
+              {/* Inline styles also hide the server HTML before CSS or JS arrives. */}
+              <span data-letter style={{ visibility: "hidden", opacity: 0, transform: "translateY(110%) rotate(5deg)" }}>{letter}</span>
+            </span>
+          ))}
         </div>
         <div className="preloader-rule" data-intro-rule />
         <p className="preloader-name" data-detail>DESIGNER ENGINEERING<br />CONSULTANTS</p>
